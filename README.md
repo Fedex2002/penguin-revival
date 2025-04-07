@@ -1,5 +1,10 @@
 # wand
 
+
+PONER ESTOS ARCHIVOS A LEGACY-MEDIA Y VANILLA-MEDIA PARA PROBAR
+🔗 **[Descargar archivos WAND desde MediaFire](https://www.mediafire.com/folder/zdvtl4a3olran/wand-files)**
+
+
 Wand makes it easy to configure dash, houdini and a media server utilizing docker & docker-compose.
 
 > [!NOTE]
