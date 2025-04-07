@@ -1,0 +1,788 @@
+{
+  "dynamic" : {
+    "images" : [ {
+      "name" : "igloo_icon",
+      "originX" : 89,
+      "originY" : 35,
+      "width" : 47,
+      "height" : 49,
+      "image" : "catalog/igloo/igloo_icon.png"
+    } ]
+  },
+  "layout" : {
+    "labels" : [ {
+      "color" : "#6a4e27",
+      "originX" : 133,
+      "originY" : 43,
+      "width" : 273.8,
+      "size" : "20",
+      "name" : "igloo_text",
+      "token" : "igloo.catalog_header.igloo_text",
+      "align" : "center",
+      "height" : 29.85,
+      "font" : "cpBurbankSmallBold"
+    } ],
+    "frames" : [ {
+      "name" : "igloo",
+      "originX" : 15,
+      "originY" : 81,
+      "width" : 993,
+      "height" : 618,
+      "configurator_id" : 0
+    } ]
+  },
+  "sourceWidth" : 1024,
+  "sourceHeight" : 768,
+  "configurator" : [ {
+    "is_member" : "true",
+    "prompt" : "VIP Penthouse",
+    "category" : "igloo",
+    "id" : "58",
+    "label" : "VIP Penthouse",
+    "cost" : "4500"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Theatre Igloo",
+    "category" : "igloo",
+    "id" : "28",
+    "label" : "Theatre Igloo",
+    "cost" : "4600"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Deluxe Snow Igloo",
+    "category" : "igloo",
+    "id" : "9",
+    "label" : "Deluxe Snow Igloo",
+    "cost" : "3000"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Snowy Backyard Igloo",
+    "category" : "igloo",
+    "id" : "30",
+    "label" : "Snowy Backyard Igloo",
+    "cost" : "3000"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Dance Floor",
+    "category" : "igloo_floor",
+    "id" : "7",
+    "label" : "Dance Floor",
+    "cost" : "1000"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Blue Turf",
+    "category" : "igloo_floor",
+    "id" : "11",
+    "label" : "Blue Turf",
+    "cost" : "530"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Phony Lawn",
+    "category" : "igloo_floor",
+    "id" : "14",
+    "label" : "Phony Lawn",
+    "cost" : "700"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Black Carpet",
+    "category" : "igloo_floor",
+    "id" : "15",
+    "label" : "Black Carpet",
+    "cost" : "530"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Sunny Sky Floor",
+    "category" : "igloo_floor",
+    "id" : "19",
+    "label" : "Sunny Sky Floor",
+    "cost" : "530"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Snowy Floor",
+    "category" : "igloo_floor",
+    "id" : "21",
+    "label" : "Snowy Floor",
+    "cost" : "400"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Lime Green Carpet",
+    "category" : "igloo_floor",
+    "id" : "22",
+    "label" : "Lime Green Carpet",
+    "cost" : "530"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Pink Carpet",
+    "category" : "igloo_floor",
+    "id" : "17",
+    "label" : "Pink Carpet",
+    "cost" : "530"
+  }, {
+    "is_member" : "true",
+    "prompt" : "CP Airliner",
+    "category" : "igloo",
+    "id" : "70",
+    "label" : "CP Airliner",
+    "cost" : "1200"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Wildlife Den",
+    "category" : "igloo",
+    "id" : "50",
+    "label" : "Wildlife Den",
+    "cost" : "900"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Grey Ice Castle",
+    "category" : "igloo",
+    "id" : "33",
+    "label" : "Grey Ice Castle",
+    "cost" : "2400"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Cave Igloo",
+    "category" : "igloo",
+    "id" : "31",
+    "label" : "Cave Igloo",
+    "cost" : "1500"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Beach",
+    "category" : "igloo_location",
+    "id" : "2",
+    "label" : "Beach",
+    "cost" : "2800"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Forest",
+    "category" : "igloo_location",
+    "id" : "3",
+    "label" : "Forest",
+    "cost" : "2700"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Mountain",
+    "category" : "igloo_location",
+    "id" : "4",
+    "label" : "Mountain",
+    "cost" : "2800"
+  } ],
+  "components" : [ {
+    "name" : "igloo_fc",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/695f4c3e-d3e9-4e5f-ad8d-8bb6f93b020b_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page01",
+    "layout" : {
+      "frames" : [ {
+        "name" : "VIP Penthouse",
+        "originX" : 293,
+        "originY" : 399,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 58,
+        "configurator_category" : "igloo"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/3ab38b30-f306-46ae-973a-76356104b06a_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page02",
+    "layout" : {
+      "frames" : [ {
+        "name" : "VIP Penthouse",
+        "originX" : -204,
+        "originY" : 399,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 58,
+        "configurator_category" : "igloo"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/3ab38b30-f306-46ae-973a-76356104b06a_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page03",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/38a1dfbb-1b4a-47f1-b8bb-60d25328afa6_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page04",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Theatre Igloo",
+        "originX" : 278,
+        "originY" : 403,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 28,
+        "configurator_category" : "igloo"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/38a1dfbb-1b4a-47f1-b8bb-60d25328afa6_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page05",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Snowy Backyard Igloo",
+        "originX" : 93,
+        "originY" : 398,
+        "width" : 345,
+        "height" : 165,
+        "configurator_id" : 30,
+        "configurator_category" : "igloo"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/a4ca220f-9fe1-4527-88e9-7fc52c69d7f9_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page06",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Deluxe Snow Igloo",
+        "originX" : 79,
+        "originY" : 401,
+        "width" : 342,
+        "height" : 160,
+        "configurator_id" : 9,
+        "configurator_category" : "igloo"
+      }, {
+        "name" : "Snowy Backyard Igloo",
+        "originX" : -404,
+        "originY" : 398,
+        "width" : 345,
+        "height" : 165,
+        "configurator_id" : 30,
+        "configurator_category" : "igloo"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/a4ca220f-9fe1-4527-88e9-7fc52c69d7f9_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page07",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Phony Lawn",
+        "originX" : 292,
+        "originY" : 355,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 14,
+        "configurator_category" : "igloo_floor"
+      }, {
+        "name" : "Snowy Floor",
+        "originX" : 292,
+        "originY" : 135,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 21,
+        "configurator_category" : "igloo_floor"
+      }, {
+        "name" : "Lime Green Carpet",
+        "originX" : 106,
+        "originY" : 355,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 22,
+        "configurator_category" : "igloo_floor"
+      }, {
+        "name" : "Pink Carpet",
+        "originX" : 106,
+        "originY" : 135,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 17,
+        "configurator_category" : "igloo_floor"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/427ea2d0-1ab8-4407-a010-23159f02f702_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page08",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Dance Floor",
+        "originX" : 296,
+        "originY" : 355,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 7,
+        "configurator_category" : "igloo_floor"
+      }, {
+        "name" : "Blue Turf",
+        "originX" : 296,
+        "originY" : 135,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 11,
+        "configurator_category" : "igloo_floor"
+      }, {
+        "name" : "Phony Lawn",
+        "originX" : -205,
+        "originY" : 355,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 14,
+        "configurator_category" : "igloo_floor"
+      }, {
+        "name" : "Black Carpet",
+        "originX" : 107,
+        "originY" : 135,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 15,
+        "configurator_category" : "igloo_floor"
+      }, {
+        "name" : "Sunny Sky Floor",
+        "originX" : 107,
+        "originY" : 355,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 19,
+        "configurator_category" : "igloo_floor"
+      }, {
+        "name" : "Snowy Floor",
+        "originX" : -205,
+        "originY" : 135,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 21,
+        "configurator_category" : "igloo_floor"
+      }, {
+        "name" : "Lime Green Carpet",
+        "originX" : -391,
+        "originY" : 355,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 22,
+        "configurator_category" : "igloo_floor"
+      }, {
+        "name" : "Pink Carpet",
+        "originX" : -391,
+        "originY" : 135,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 17,
+        "configurator_category" : "igloo_floor"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/427ea2d0-1ab8-4407-a010-23159f02f702_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page09",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Wildlife Den",
+        "originX" : 290,
+        "originY" : 405,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 50,
+        "configurator_category" : "igloo"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/2f0ebbf1-2b04-4204-ba89-eefa1b794353_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page10",
+    "layout" : {
+      "frames" : [ {
+        "name" : "CP Airliner",
+        "originX" : 278,
+        "originY" : 403,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 70,
+        "configurator_category" : "igloo"
+      }, {
+        "name" : "Wildlife Den",
+        "originX" : -207,
+        "originY" : 405,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 50,
+        "configurator_category" : "igloo"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/2f0ebbf1-2b04-4204-ba89-eefa1b794353_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page11",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Grey Ice Castle",
+        "originX" : 295,
+        "originY" : 410,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 33,
+        "configurator_category" : "igloo"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/4ec40c7e-89fc-487e-be83-6239f1875e4a_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page12",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Grey Ice Castle",
+        "originX" : -202,
+        "originY" : 410,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 33,
+        "configurator_category" : "igloo"
+      }, {
+        "name" : "Cave Igloo",
+        "originX" : 296,
+        "originY" : 410,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 31,
+        "configurator_category" : "igloo"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/4ec40c7e-89fc-487e-be83-6239f1875e4a_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page13",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Beach",
+        "originX" : 117,
+        "originY" : 265,
+        "width" : 197,
+        "height" : 242,
+        "configurator_id" : 2,
+        "configurator_category" : "igloo_location"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/1e7aced6-ecb6-4cf2-958e-48286b1a83b1_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page14",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Beach",
+        "originX" : -380,
+        "originY" : 265,
+        "width" : 197,
+        "height" : 242,
+        "configurator_id" : 2,
+        "configurator_category" : "igloo_location"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/1e7aced6-ecb6-4cf2-958e-48286b1a83b1_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page15",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Forest",
+        "originX" : 135,
+        "originY" : 265,
+        "width" : 158,
+        "height" : 241,
+        "configurator_id" : 3,
+        "configurator_category" : "igloo_location"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/22c6d3f4-e900-409a-831e-738e31caee10_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page16",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Forest",
+        "originX" : -362,
+        "originY" : 265,
+        "width" : 158,
+        "height" : 241,
+        "configurator_id" : 3,
+        "configurator_category" : "igloo_location"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/22c6d3f4-e900-409a-831e-738e31caee10_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page17",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Mountain",
+        "originX" : 118,
+        "originY" : 253,
+        "width" : 195,
+        "height" : 257,
+        "configurator_id" : 4,
+        "configurator_category" : "igloo_location"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/2ac43702-2eef-469f-9eca-cdb4253d5593_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_page18",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Mountain",
+        "originX" : -379,
+        "originY" : 253,
+        "width" : 195,
+        "height" : 257,
+        "configurator_id" : 4,
+        "configurator_category" : "igloo_location"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/2ac43702-2eef-469f-9eca-cdb4253d5593_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "igloo_bc",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/igloo/dc7f69ca-fe3c-4478-8959-8d1236e0680c_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  } ]
+}

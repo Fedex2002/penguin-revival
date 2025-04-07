@@ -1,0 +1,1450 @@
+{
+  "dynamic" : {
+    "images" : [ {
+      "name" : "sport_icon",
+      "originX" : 89,
+      "originY" : 35,
+      "width" : 47,
+      "height" : 49,
+      "image" : "catalog/sport/sport_icon.png"
+    } ]
+  },
+  "layout" : {
+    "labels" : [ {
+      "color" : "#6a4e27",
+      "originX" : 133,
+      "originY" : 43,
+      "width" : 273.8,
+      "size" : "20",
+      "name" : "sport_text",
+      "token" : "sport.catalog_header.sport_text",
+      "align" : "center",
+      "height" : 29.85,
+      "font" : "cpBurbankSmallBold"
+    } ],
+    "frames" : [ {
+      "name" : "sport",
+      "originX" : 15,
+      "originY" : 81,
+      "width" : 993,
+      "height" : 618,
+      "configurator_id" : 0
+    } ]
+  },
+  "sourceWidth" : 1024,
+  "sourceHeight" : 768,
+  "configurator" : [ {
+    "is_member" : "true",
+    "prompt" : "Spiked Skateboard Helmet",
+    "category" : "paper_item",
+    "id" : "1906",
+    "label" : "Spiked Skateboard Helmet",
+    "cost" : "200",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Skater Pigtails",
+    "category" : "paper_item",
+    "id" : "1907",
+    "label" : "Skater Pigtails",
+    "cost" : "200",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Fluffy Skateboard",
+    "category" : "paper_item",
+    "id" : "5472",
+    "label" : "Fluffy Skateboard",
+    "cost" : "100",
+    "type" : "6"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Sponsored Pro Skateboard",
+    "category" : "paper_item",
+    "id" : "5471",
+    "label" : "Sponsored Pro Skateboard",
+    "cost" : "100",
+    "type" : "6"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Galactic Pink Skateboard",
+    "category" : "paper_item",
+    "id" : "5473",
+    "label" : "Galactic Pink Skateboard",
+    "cost" : "100",
+    "type" : "6"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Bad Bear Skateboard",
+    "category" : "paper_item",
+    "id" : "5474",
+    "label" : "Bad Bear Skateboard",
+    "cost" : "100",
+    "type" : "6"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Tank Top Skater Outfit",
+    "category" : "paper_item",
+    "id" : "24191",
+    "label" : "Tank Top Skater Outfit",
+    "cost" : "300",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Orange Skater Outfit",
+    "category" : "paper_item",
+    "id" : "24204",
+    "label" : "Orange Skater Outfit",
+    "cost" : "300",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Cool Ski Suit",
+    "category" : "paper_item",
+    "id" : "4758",
+    "label" : "Cool Ski Suit",
+    "cost" : "450",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Cool Ski Beanie",
+    "category" : "paper_item",
+    "id" : "1509",
+    "label" : "Cool Ski Beanie",
+    "cost" : "350",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Cool Mittens",
+    "category" : "paper_item",
+    "id" : "5189",
+    "label" : "Cool Mittens",
+    "cost" : "200",
+    "type" : "6"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Cool Ski Boots",
+    "category" : "paper_item",
+    "id" : "6143",
+    "label" : "Cool Ski Boots",
+    "cost" : "300",
+    "type" : "7"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Sweet Ski Beanie",
+    "category" : "paper_item",
+    "id" : "1508",
+    "label" : "Sweet Ski Beanie",
+    "cost" : "400",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Sweet Ski Suit",
+    "category" : "paper_item",
+    "id" : "4757",
+    "label" : "Sweet Ski Suit",
+    "cost" : "450",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Sweet Mittens",
+    "category" : "paper_item",
+    "id" : "5188",
+    "label" : "Sweet Mittens",
+    "cost" : "200",
+    "type" : "6"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Sweet Ski Boots",
+    "category" : "paper_item",
+    "id" : "6142",
+    "label" : "Sweet Ski Boots",
+    "cost" : "300",
+    "type" : "7"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Green Bobsled Helmet",
+    "category" : "paper_item",
+    "id" : "1510",
+    "label" : "Green Bobsled Helmet",
+    "cost" : "350",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Green Bobsled",
+    "category" : "paper_item",
+    "id" : "4759",
+    "label" : "Green Bobsled",
+    "cost" : "500",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Red Bobsled Helmet",
+    "category" : "paper_item",
+    "id" : "1511",
+    "label" : "Red Bobsled Helmet",
+    "cost" : "350",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Red Bobsled",
+    "category" : "paper_item",
+    "id" : "4760",
+    "label" : "Red Bobsled",
+    "cost" : "500",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Jersey Hockey Red",
+    "category" : "paper_item",
+    "id" : "277",
+    "label" : "Jersey Hockey Red",
+    "cost" : "450",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Jersey Hockey Blue",
+    "category" : "paper_item",
+    "id" : "278",
+    "label" : "Jersey Hockey Blue",
+    "cost" : "450",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Jersey Hockey Green",
+    "category" : "paper_item",
+    "id" : "4143",
+    "label" : "Jersey Hockey Green",
+    "cost" : "450",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Yellow Hockey Jersey",
+    "category" : "paper_item",
+    "id" : "4204",
+    "label" : "Yellow Hockey Jersey",
+    "cost" : "450",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Red Away Hockey Jersey",
+    "category" : "paper_item",
+    "id" : "4474",
+    "label" : "Red Away Hockey Jersey",
+    "cost" : "450",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Blue Away Hockey Jersey",
+    "category" : "paper_item",
+    "id" : "4476",
+    "label" : "Blue Away Hockey Jersey",
+    "cost" : "450",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Green Away Hockey Jersey",
+    "category" : "paper_item",
+    "id" : "4478",
+    "label" : "Green Away Hockey Jersey",
+    "cost" : "450",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Yellow Away Hockey Jersey",
+    "category" : "paper_item",
+    "id" : "4480",
+    "label" : "Yellow Away Hockey Jersey",
+    "cost" : "450",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Goalie Gear Red",
+    "category" : "paper_item",
+    "id" : "4053",
+    "label" : "Goalie Gear Red",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Goalie Gear Blue",
+    "category" : "paper_item",
+    "id" : "4054",
+    "label" : "Goalie Gear Blue",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Goalie Gear Green",
+    "category" : "paper_item",
+    "id" : "4144",
+    "label" : "Goalie Gear Green",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Yellow Goalie Gear",
+    "category" : "paper_item",
+    "id" : "4297",
+    "label" : "Yellow Goalie Gear",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Red Away Goalie Gear",
+    "category" : "paper_item",
+    "id" : "4475",
+    "label" : "Red Away Goalie Gear",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Blue Away Goalie Gear",
+    "category" : "paper_item",
+    "id" : "4477",
+    "label" : "Blue Away Goalie Gear",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Green Away Goalie Gear",
+    "category" : "paper_item",
+    "id" : "4479",
+    "label" : "Green Away Goalie Gear",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Yellow Away Goalie Gear",
+    "category" : "paper_item",
+    "id" : "4481",
+    "label" : "Yellow Away Goalie Gear",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hockey Stick",
+    "category" : "paper_item",
+    "id" : "220",
+    "label" : "Hockey Stick",
+    "cost" : "280",
+    "type" : "6"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hockey Helmet",
+    "category" : "paper_item",
+    "id" : "461",
+    "label" : "Hockey Helmet",
+    "cost" : "220",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Black Hockey Helmet",
+    "category" : "paper_item",
+    "id" : "1215",
+    "label" : "Black Hockey Helmet",
+    "cost" : "220",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hockey Referee",
+    "category" : "paper_item",
+    "id" : "4299",
+    "label" : "Hockey Referee",
+    "cost" : "300",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hockey Skates",
+    "category" : "paper_item",
+    "id" : "6013",
+    "label" : "Hockey Skates",
+    "cost" : "300",
+    "type" : "7"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Silver Whistle",
+    "category" : "paper_item",
+    "id" : "3002",
+    "label" : "Silver Whistle",
+    "cost" : "100",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "The Triple Lutz",
+    "category" : "paper_item",
+    "id" : "1337",
+    "label" : "The Triple Lutz",
+    "cost" : "350",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Floating on Ice Dress",
+    "category" : "paper_item",
+    "id" : "4483",
+    "label" : "Floating on Ice Dress",
+    "cost" : "450",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "The Twizzle",
+    "category" : "paper_item",
+    "id" : "1336",
+    "label" : "The Twizzle",
+    "cost" : "350",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Perfect Twirl Dress",
+    "category" : "paper_item",
+    "id" : "4482",
+    "label" : "Perfect Twirl Dress",
+    "cost" : "450",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Figure Skates",
+    "category" : "paper_item",
+    "id" : "6011",
+    "label" : "Figure Skates",
+    "cost" : "300",
+    "type" : "7"
+  } ],
+  "components" : [ {
+    "name" : "sport_fc",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/695f4c3e-d3e9-4e5f-ad8d-8bb6f93b020b_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page01",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Spiked Skateboard Helmet",
+        "originX" : 251,
+        "originY" : 325,
+        "width" : 118,
+        "height" : 151,
+        "configurator_id" : 1906,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Skater Pigtails",
+        "originX" : 117,
+        "originY" : 335,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1907,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/7593d52d-2cdf-40ca-8a1a-ba0e115f907a_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page02",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Spiked Skateboard Helmet",
+        "originX" : -246,
+        "originY" : 325,
+        "width" : 118,
+        "height" : 151,
+        "configurator_id" : 1906,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Skater Pigtails",
+        "originX" : -380,
+        "originY" : 335,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1907,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Fluffy Skateboard",
+        "originX" : 278,
+        "originY" : 332,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 5472,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Sponsored Pro Skateboard",
+        "originX" : 102,
+        "originY" : 333,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 5471,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Galactic Pink Skateboard",
+        "originX" : 96,
+        "originY" : 89,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 5473,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Bad Bear Skateboard",
+        "originX" : 272,
+        "originY" : 89,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 5474,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/7593d52d-2cdf-40ca-8a1a-ba0e115f907a_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page03",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Tank Top Skater Outfit",
+        "originX" : 148,
+        "originY" : 91,
+        "width" : 147,
+        "height" : 178,
+        "configurator_id" : 24191,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Orange Skater Outfit",
+        "originX" : 144,
+        "originY" : 296,
+        "width" : 156,
+        "height" : 181,
+        "configurator_id" : 24204,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/b7b54162-4f29-459f-9fa3-3614b919fd4f_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page04",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Tank Top Skater Outfit",
+        "originX" : -349,
+        "originY" : 91,
+        "width" : 147,
+        "height" : 178,
+        "configurator_id" : 24191,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Orange Skater Outfit",
+        "originX" : -353,
+        "originY" : 296,
+        "width" : 156,
+        "height" : 181,
+        "configurator_id" : 24204,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/b7b54162-4f29-459f-9fa3-3614b919fd4f_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page05",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/63a8247f-6a49-4d38-98e9-580e911c593e_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page06",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Cool Ski Suit",
+        "originX" : 248,
+        "originY" : 127,
+        "width" : 153,
+        "height" : 178,
+        "configurator_id" : 4758,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Cool Ski Beanie",
+        "originX" : 95,
+        "originY" : 91,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1509,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Cool Mittens",
+        "originX" : 95,
+        "originY" : 325,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 5189,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Cool Ski Boots",
+        "originX" : 257,
+        "originY" : 369,
+        "width" : 136,
+        "height" : 157,
+        "configurator_id" : 6143,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/63a8247f-6a49-4d38-98e9-580e911c593e_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page07",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Sweet Ski Beanie",
+        "originX" : 105,
+        "originY" : 104,
+        "width" : 136,
+        "height" : 167,
+        "configurator_id" : 1508,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Sweet Ski Suit",
+        "originX" : 268,
+        "originY" : 92,
+        "width" : 155,
+        "height" : 180,
+        "configurator_id" : 4757,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Sweet Mittens",
+        "originX" : 115,
+        "originY" : 308,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 5188,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Sweet Ski Boots",
+        "originX" : 280,
+        "originY" : 297,
+        "width" : 132,
+        "height" : 150,
+        "configurator_id" : 6142,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/9aa5c397-3249-4028-b087-adaf6efaa6ee_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page08",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Sweet Ski Beanie",
+        "originX" : -392,
+        "originY" : 104,
+        "width" : 136,
+        "height" : 167,
+        "configurator_id" : 1508,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Sweet Ski Suit",
+        "originX" : -228,
+        "originY" : 92,
+        "width" : 155,
+        "height" : 180,
+        "configurator_id" : 4757,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Sweet Mittens",
+        "originX" : -382,
+        "originY" : 308,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 5188,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Sweet Ski Boots",
+        "originX" : -217,
+        "originY" : 297,
+        "width" : 132,
+        "height" : 150,
+        "configurator_id" : 6142,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/9aa5c397-3249-4028-b087-adaf6efaa6ee_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page09",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/692d6269-0d7c-4d3f-9dd4-45e6a98c2066_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page10",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Green Bobsled Helmet",
+        "originX" : 185,
+        "originY" : 102,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1510,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Green Bobsled",
+        "originX" : 158,
+        "originY" : 276,
+        "width" : 172,
+        "height" : 195,
+        "configurator_id" : 4759,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/692d6269-0d7c-4d3f-9dd4-45e6a98c2066_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page11",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Red Bobsled Helmet",
+        "originX" : 194,
+        "originY" : 86,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1511,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Red Bobsled",
+        "originX" : 176,
+        "originY" : 238,
+        "width" : 153,
+        "height" : 172,
+        "configurator_id" : 4760,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/2333fc46-d4b7-4e95-a833-551cdba85fef_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page12",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Red Bobsled Helmet",
+        "originX" : -303,
+        "originY" : 86,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1511,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Red Bobsled",
+        "originX" : -321,
+        "originY" : 238,
+        "width" : 153,
+        "height" : 172,
+        "configurator_id" : 4760,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/2333fc46-d4b7-4e95-a833-551cdba85fef_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page13",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Red Hockey Jersey",
+        "originX" : 82,
+        "originY" : 126,
+        "width" : 153,
+        "height" : 167,
+        "configurator_id" : 277,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Hockey Jersey",
+        "originX" : 262,
+        "originY" : 129,
+        "width" : 153,
+        "height" : 164,
+        "configurator_id" : 278,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Green Hockey Jersey",
+        "originX" : 265,
+        "originY" : 320,
+        "width" : 148,
+        "height" : 156,
+        "configurator_id" : 4143,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Yellow Hockey Jersey",
+        "originX" : 86,
+        "originY" : 322,
+        "width" : 144,
+        "height" : 155,
+        "configurator_id" : 4204,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/fd2f2d70-0188-4406-a873-3bc700c059b7_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page14",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Red Hockey Jersey",
+        "originX" : -415,
+        "originY" : 126,
+        "width" : 153,
+        "height" : 167,
+        "configurator_id" : 277,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Hockey Jersey",
+        "originX" : -235,
+        "originY" : 129,
+        "width" : 153,
+        "height" : 164,
+        "configurator_id" : 278,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Green Hockey Jersey",
+        "originX" : -232,
+        "originY" : 320,
+        "width" : 148,
+        "height" : 156,
+        "configurator_id" : 4143,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Yellow Hockey Jersey",
+        "originX" : -411,
+        "originY" : 322,
+        "width" : 144,
+        "height" : 155,
+        "configurator_id" : 4204,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Red Away Hockey Jersey",
+        "originX" : 245,
+        "originY" : 120,
+        "width" : 155,
+        "height" : 162,
+        "configurator_id" : 4474,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Away Hockey Jersey",
+        "originX" : 56,
+        "originY" : 117,
+        "width" : 156,
+        "height" : 165,
+        "configurator_id" : 4476,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Green Away Hockey Jersey",
+        "originX" : 244,
+        "originY" : 311,
+        "width" : 155,
+        "height" : 165,
+        "configurator_id" : 4478,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Yellow Away Hockey Jersey",
+        "originX" : 58,
+        "originY" : 309,
+        "width" : 152,
+        "height" : 167,
+        "configurator_id" : 4480,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/fd2f2d70-0188-4406-a873-3bc700c059b7_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page15",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Red Goalie Gear",
+        "originX" : 95,
+        "originY" : 311,
+        "width" : 145,
+        "height" : 174,
+        "configurator_id" : 4053,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Goalie Gear",
+        "originX" : 294,
+        "originY" : 316,
+        "width" : 145,
+        "height" : 168,
+        "configurator_id" : 4054,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Green Goalie Gear",
+        "originX" : 93,
+        "originY" : 94,
+        "width" : 150,
+        "height" : 167,
+        "configurator_id" : 4144,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Yellow Goalie Gear",
+        "originX" : 295,
+        "originY" : 100,
+        "width" : 144,
+        "height" : 168,
+        "configurator_id" : 4297,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/f4933402-c8e1-4889-992c-3969208bad88_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page16",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Red Goalie Gear",
+        "originX" : -402,
+        "originY" : 311,
+        "width" : 145,
+        "height" : 174,
+        "configurator_id" : 4053,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Goalie Gear",
+        "originX" : -203,
+        "originY" : 316,
+        "width" : 145,
+        "height" : 168,
+        "configurator_id" : 4054,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Green Goalie Gear",
+        "originX" : -404,
+        "originY" : 94,
+        "width" : 150,
+        "height" : 167,
+        "configurator_id" : 4144,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Yellow Goalie Gear",
+        "originX" : -202,
+        "originY" : 100,
+        "width" : 144,
+        "height" : 168,
+        "configurator_id" : 4297,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Red Away Goalie Gear",
+        "originX" : 72,
+        "originY" : 104,
+        "width" : 140,
+        "height" : 161,
+        "configurator_id" : 4475,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Away Goalie Gear",
+        "originX" : 269,
+        "originY" : 102,
+        "width" : 142,
+        "height" : 166,
+        "configurator_id" : 4477,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Green Away Goalie Gear",
+        "originX" : 267,
+        "originY" : 316,
+        "width" : 147,
+        "height" : 168,
+        "configurator_id" : 4479,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Yellow Away Goalie Gear",
+        "originX" : 69,
+        "originY" : 319,
+        "width" : 145,
+        "height" : 165,
+        "configurator_id" : 4481,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/f4933402-c8e1-4889-992c-3969208bad88_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page17",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Hockey Helmet",
+        "originX" : 276,
+        "originY" : 59,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 461,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Hockey Referee",
+        "originX" : 72,
+        "originY" : 186,
+        "width" : 158,
+        "height" : 184,
+        "configurator_id" : 4299,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Silver Whistle",
+        "originX" : 276,
+        "originY" : 383,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 3002,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/783df780-ec08-43a6-9bd9-e09800567fcb_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page18",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Hockey Stick",
+        "originX" : 260,
+        "originY" : 178,
+        "width" : 166,
+        "height" : 195,
+        "configurator_id" : 220,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Hockey Helmet",
+        "originX" : -221,
+        "originY" : 59,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 461,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Black Hockey Helmet",
+        "originX" : 108,
+        "originY" : 59,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1215,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Hockey Referee",
+        "originX" : -425,
+        "originY" : 186,
+        "width" : 158,
+        "height" : 184,
+        "configurator_id" : 4299,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Hockey Skates",
+        "originX" : 108,
+        "originY" : 383,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 6013,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Silver Whistle",
+        "originX" : -221,
+        "originY" : 383,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 3002,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/783df780-ec08-43a6-9bd9-e09800567fcb_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page19",
+    "layout" : {
+      "frames" : [ {
+        "name" : "The Triple Lutz",
+        "originX" : 188,
+        "originY" : 116,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1337,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Floating on Ice Dress",
+        "originX" : 152,
+        "originY" : 282,
+        "width" : 185,
+        "height" : 210,
+        "configurator_id" : 4483,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/90001403-3b58-4791-abe5-829116936033_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page20",
+    "layout" : {
+      "frames" : [ {
+        "name" : "The Triple Lutz",
+        "originX" : -309,
+        "originY" : 116,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1337,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Floating on Ice Dress",
+        "originX" : -345,
+        "originY" : 282,
+        "width" : 185,
+        "height" : 210,
+        "configurator_id" : 4483,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/90001403-3b58-4791-abe5-829116936033_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page21",
+    "layout" : {
+      "frames" : [ {
+        "name" : "The Twizzle",
+        "originX" : 261,
+        "originY" : 138,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1336,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Perfect Twirl Dress",
+        "originX" : 223,
+        "originY" : 308,
+        "width" : 193,
+        "height" : 214,
+        "configurator_id" : 4482,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Figure Skates",
+        "originX" : 67,
+        "originY" : 215,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 6011,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/fe96f6fd-06aa-4c3a-89f2-da4f1fa09c15_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_page22",
+    "layout" : {
+      "frames" : [ {
+        "name" : "The Twizzle",
+        "originX" : -236,
+        "originY" : 138,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1336,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Perfect Twirl Dress",
+        "originX" : -274,
+        "originY" : 308,
+        "width" : 193,
+        "height" : 214,
+        "configurator_id" : 4482,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Figure Skates",
+        "originX" : -430,
+        "originY" : 215,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 6011,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/fe96f6fd-06aa-4c3a-89f2-da4f1fa09c15_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "sport_bc",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/sport/79eebfb1-127e-4fc3-a91a-ba5bc59d2b82_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  } ]
+}

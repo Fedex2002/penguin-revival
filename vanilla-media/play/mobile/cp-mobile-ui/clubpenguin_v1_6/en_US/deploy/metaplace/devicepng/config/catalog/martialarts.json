@@ -1,0 +1,513 @@
+{
+  "dynamic" : {
+    "images" : [ {
+      "name" : "martialarts_icon",
+      "originX" : 89,
+      "originY" : 35,
+      "width" : 47,
+      "height" : 49,
+      "image" : "catalog/martialarts/martialarts_icon.png"
+    } ]
+  },
+  "layout" : {
+    "labels" : [ {
+      "color" : "#6a4e27",
+      "originX" : 133,
+      "originY" : 43,
+      "width" : 273.8,
+      "size" : "20",
+      "name" : "martialarts_text",
+      "token" : "martialarts.catalog_header.martialarts_text",
+      "align" : "center",
+      "height" : 29.85,
+      "font" : "cpBurbankSmallBold"
+    } ],
+    "frames" : [ {
+      "name" : "martialarts",
+      "originX" : 15,
+      "originY" : 81,
+      "width" : 993,
+      "height" : 618,
+      "configurator_id" : 0
+    } ]
+  },
+  "sourceWidth" : 1024,
+  "sourceHeight" : 768,
+  "configurator" : [ {
+    "is_member" : "true",
+    "prompt" : "Ninja Outfit",
+    "category" : "paper_item",
+    "id" : "4034",
+    "label" : "Ninja Outfit",
+    "cost" : "1000",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Cloud Wave Bracers",
+    "category" : "paper_item",
+    "id" : "5040",
+    "label" : "Cloud Wave Bracers",
+    "cost" : "250",
+    "type" : "6"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Apron Goldsmith",
+    "category" : "paper_item",
+    "id" : "4132",
+    "label" : "Apron Goldsmith",
+    "cost" : "100",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Gong",
+    "category" : "paper_item",
+    "id" : "5012",
+    "label" : "Gong",
+    "cost" : "400",
+    "type" : "6"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hair - The Storm",
+    "category" : "paper_item",
+    "id" : "1230",
+    "label" : "Hair - The Storm",
+    "cost" : "300",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Lightning Gi",
+    "category" : "paper_item",
+    "id" : "4332",
+    "label" : "Lightning Gi",
+    "cost" : "450",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hair - The Quicksilv",
+    "category" : "paper_item",
+    "id" : "1232",
+    "label" : "Hair - The Quicksilv",
+    "cost" : "350",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Golden Sun Suit",
+    "category" : "paper_item",
+    "id" : "4335",
+    "label" : "Golden Sun Suit",
+    "cost" : "500",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Ink Ceremony Robes",
+    "category" : "paper_item",
+    "id" : "4337",
+    "label" : "Ink Ceremony Robes",
+    "cost" : "550",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "White Gi",
+    "category" : "paper_item",
+    "id" : "4075",
+    "label" : "White Gi",
+    "cost" : "800",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Dojo Igloo",
+    "category" : "igloo",
+    "id" : "24",
+    "label" : "Dojo Igloo",
+    "cost" : "1300"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Card-Jitsu Mat",
+    "category" : "furniture_item",
+    "id" : "786",
+    "label" : "Card-Jitsu Mat",
+    "cost" : "700",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Tea Table",
+    "category" : "furniture_item",
+    "id" : "525",
+    "label" : "Tea Table",
+    "cost" : "650",
+    "type" : "1"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Rice Paper Wall Scre",
+    "category" : "furniture_item",
+    "id" : "461",
+    "label" : "Rice Paper Wall Scre",
+    "cost" : "500",
+    "type" : "1"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Stone Lantern",
+    "category" : "furniture_item",
+    "id" : "460",
+    "label" : "Stone Lantern",
+    "cost" : "575",
+    "type" : "1"
+  } ],
+  "components" : [ {
+    "name" : "martialarts_fc",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/martialarts/f2698dea-a610-4b3b-b8f2-20e69f4042c5_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "martialarts_page01",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Ninja Outfit",
+        "originX" : 100,
+        "originY" : 59,
+        "width" : 304,
+        "height" : 511,
+        "configurator_id" : 4034,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/martialarts/27d67e6f-7f67-44c4-8f2a-94cf7524c35a_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "martialarts_page02",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Ninja Outfit",
+        "originX" : -397,
+        "originY" : 59,
+        "width" : 304,
+        "height" : 511,
+        "configurator_id" : 4034,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Cloud Wave Bracers",
+        "originX" : 95,
+        "originY" : 21,
+        "width" : 306,
+        "height" : 551,
+        "configurator_id" : 5040,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/martialarts/27d67e6f-7f67-44c4-8f2a-94cf7524c35a_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "martialarts_page03",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Goldsmith Apron",
+        "originX" : 112,
+        "originY" : 102,
+        "width" : 349,
+        "height" : 178,
+        "configurator_id" : 4132,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Hand Gong",
+        "originX" : 122,
+        "originY" : 337,
+        "width" : 325,
+        "height" : 173,
+        "configurator_id" : 5012,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/martialarts/45bc99a8-6ee9-46ae-bd3e-c8dd3eaf98be_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "martialarts_page04",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Goldsmith Apron",
+        "originX" : -385,
+        "originY" : 102,
+        "width" : 349,
+        "height" : 178,
+        "configurator_id" : 4132,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Hand Gong",
+        "originX" : -375,
+        "originY" : 337,
+        "width" : 325,
+        "height" : 173,
+        "configurator_id" : 5012,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "The Storm",
+        "originX" : 98,
+        "originY" : 123,
+        "width" : 342,
+        "height" : 137,
+        "configurator_id" : 1230,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Lightning Gi",
+        "originX" : 102,
+        "originY" : 362,
+        "width" : 349,
+        "height" : 138,
+        "configurator_id" : 4332,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/martialarts/45bc99a8-6ee9-46ae-bd3e-c8dd3eaf98be_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "martialarts_page05",
+    "layout" : {
+      "frames" : [ {
+        "name" : "The Quicksilver",
+        "originX" : 92,
+        "originY" : 115,
+        "width" : 354,
+        "height" : 157,
+        "configurator_id" : 1232,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Ink Ceremony Robes",
+        "originX" : 83,
+        "originY" : 348,
+        "width" : 392,
+        "height" : 182,
+        "configurator_id" : 4337,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/martialarts/082cf51e-116d-4868-8c7d-dca059a0b19c_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "martialarts_page06",
+    "layout" : {
+      "frames" : [ {
+        "name" : "The Quicksilver",
+        "originX" : -405,
+        "originY" : 115,
+        "width" : 354,
+        "height" : 157,
+        "configurator_id" : 1232,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Golden Sun Suit",
+        "originX" : 99,
+        "originY" : 132,
+        "width" : 359,
+        "height" : 142,
+        "configurator_id" : 4335,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Ink Ceremony Robes",
+        "originX" : -414,
+        "originY" : 348,
+        "width" : 392,
+        "height" : 182,
+        "configurator_id" : 4337,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "White Gi",
+        "originX" : 114,
+        "originY" : 374,
+        "width" : 325,
+        "height" : 135,
+        "configurator_id" : 4075,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/martialarts/082cf51e-116d-4868-8c7d-dca059a0b19c_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "martialarts_page07",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Dojo Igloo",
+        "originX" : 66,
+        "originY" : 63,
+        "width" : 362,
+        "height" : 475,
+        "configurator_id" : 24,
+        "configurator_category" : "igloo"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/martialarts/b6204818-3d1a-42f8-8032-2e5557fbaca6_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "martialarts_page08",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Dojo Igloo",
+        "originX" : -431,
+        "originY" : 63,
+        "width" : 362,
+        "height" : 475,
+        "configurator_id" : 24,
+        "configurator_category" : "igloo"
+      }, {
+        "name" : "Card-Jitsu Mat",
+        "originX" : 62,
+        "originY" : 81,
+        "width" : 392,
+        "height" : 182,
+        "configurator_id" : 786,
+        "configurator_category" : "furniture_item"
+      }, {
+        "name" : "Tea Table",
+        "originX" : 48,
+        "originY" : 309,
+        "width" : 134,
+        "height" : 229,
+        "configurator_id" : 525,
+        "configurator_category" : "furniture_item"
+      }, {
+        "name" : "Rice Paper Wall Screen",
+        "originX" : 178,
+        "originY" : 315,
+        "width" : 157,
+        "height" : 223,
+        "configurator_id" : 461,
+        "configurator_category" : "furniture_item"
+      }, {
+        "name" : "Stone Lantern",
+        "originX" : 317,
+        "originY" : 311,
+        "width" : 158,
+        "height" : 229,
+        "configurator_id" : 460,
+        "configurator_category" : "furniture_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/martialarts/b6204818-3d1a-42f8-8032-2e5557fbaca6_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "martialarts_bc",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/martialarts/cfb2907c-d428-4f4a-8714-035f052b89d8_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  } ]
+}

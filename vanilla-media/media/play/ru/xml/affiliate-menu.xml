@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NAVIGATION>
+
+	<MENU LANGUAGE="en">
+		<HOME>
+			<URL>##http://www.clubpenguin.com/ru##</URL>
+		</HOME>
+
+		<MEMBERSHIP POS_X="205">
+			<TEXT>Подписка</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/membership/##</URL>
+		</MEMBERSHIP>
+
+		<COMMUNITY POS_X="330">
+			<TEXT>Весёлые штуки</TEXT>
+			<URL>##http://community.clubpenguin.com/ru/##</URL>
+		</COMMUNITY>
+
+		<PARENTS POS_X="438">
+			<TEXT>Родители</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/parents/##</URL>
+		</PARENTS>
+
+		<TOYS POS_X="527">
+			<TEXT>##Products##</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/products/##</URL>
+		</TOYS>
+
+		<HELP POS_X="605">
+			<TEXT>Помощь</TEXT>
+			<URL>##http://support.clubpenguin.com/ru/help/##</URL>
+		</HELP>
+	</MENU>
+
+	<MENU LANGUAGE="es">
+		<HOME>
+			<URL>##http://www.clubpenguin.com/ru/es/##</URL>
+		</HOME>
+
+		<MEMBERSHIP POS_X="205">
+			<TEXT>##Socios##&nbsp;</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/es/membership/##</URL>
+		</MEMBERSHIP>
+
+		<COMMUNITY POS_X="318">
+			<TEXT>##Cosas Divertidas##</TEXT>
+			<URL>##http://community.clubpenguin.com/ru/es/##</URL>
+		</COMMUNITY>
+
+		<PARENTS POS_X="435">
+			<TEXT>##Padres##</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/es/parents/##</URL>
+		</PARENTS>
+
+		<TOYS POS_X="520">
+			<TEXT>##Juguetes##</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/es/products/##</URL>
+		</TOYS>
+
+		<HELP POS_X="605">
+			<TEXT>##Ayuda##</TEXT>
+			<URL>##http://support.clubpenguin.com/ru/es/help/##</URL>
+		</HELP>
+	</MENU>
+
+	<MENU LANGUAGE="fr">
+		<HOME>
+			<URL>##http://www.clubpenguin.com/ru/fr/##</URL>
+		</HOME>
+
+		<MEMBERSHIP POS_X="205">
+			<TEXT>##Abonnement##</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/fr/membership/##</URL>
+		</MEMBERSHIP>
+
+		<COMMUNITY POS_X="335">
+			<TEXT>##Trucs Amusants##</TEXT>
+			<URL>##http://community.clubpenguin.com/ru/fr/##</URL>
+		</COMMUNITY>
+
+		<PARENTS POS_X="450">
+			<TEXT>Родители</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/fr/parents/##</URL>
+		</PARENTS>
+
+		<TOYS POS_X="535">
+			<TEXT>##Jouets##</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/fr/products/##</URL>
+		</TOYS>
+
+		<HELP POS_X="605">
+			<TEXT>##Aide##</TEXT>
+			<URL>##http://support.clubpenguin.com/ru/fr/help/##</URL>
+		</HELP>
+	</MENU>
+
+	<MENU LANGUAGE="pt">
+		<HOME>
+			<URL>##http://www.clubpenguin.com/ru/pt/##</URL>
+		</HOME>
+
+		<MEMBERSHIP POS_X="205">
+			<TEXT>##Assinatura##</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/pt/membership/##</URL>
+		</MEMBERSHIP>
+
+		<COMMUNITY POS_X="312">
+			<TEXT>##Diversão##</TEXT>
+			<URL>##http://community.clubpenguin.com/ru/pt/##</URL>
+		</COMMUNITY>
+
+		<PARENTS POS_X="432">
+			<TEXT>##Responsáveis##</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/pt/parents/##</URL>
+		</PARENTS>
+
+		<TOYS POS_X="537">
+			<TEXT>##Loja##</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/pt/products/##</URL>
+		</TOYS>
+
+		<HELP POS_X="605">
+			<TEXT>##Ajuda##</TEXT>
+			<URL>##http://support.clubpenguin.com/ru/pt/help/##</URL>
+		</HELP>
+	</MENU>
+
+	<MENU LANGUAGE="de">
+		<HOME>
+			<URL>##http://www.clubpenguin.com/ru/de/##</URL>
+		</HOME>
+
+		<MEMBERSHIP POS_X="205">
+			<TEXT>##Mitgliedschaft##</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/de/membership/##</URL>
+		</MEMBERSHIP>
+
+		<COMMUNITY POS_X="335">
+			<TEXT>##Spiel & Spaß##</TEXT>
+			<URL>##http://community.clubpenguin.com/ru/de/##</URL>
+		</COMMUNITY>
+
+		<PARENTS POS_X="435">
+			<TEXT>##Eltern##</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/de/parents/##</URL>
+		</PARENTS>
+
+		<TOYS POS_X="520">
+			<TEXT>##Artikel##</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/de/products/##</URL>
+		</TOYS>
+
+		<HELP POS_X="605">
+			<TEXT>##Hilfe##</TEXT>
+			<URL>##http://support.clubpenguin.com/ru/de/help/##</URL>
+		</HELP>
+	</MENU>
+	
+	<MENU LANGUAGE="ru">
+		<HOME>
+			<URL>##http://www.clubpenguin.com/ru/ru/##</URL>
+		</HOME>
+
+		<MEMBERSHIP POS_X="205">
+			<TEXT>##Mitgliedschaft##</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/ru/membership/##</URL>
+		</MEMBERSHIP>
+
+		<COMMUNITY POS_X="335">
+			<TEXT>##Spiel & Spaß##</TEXT>
+			<URL>##http://community.clubpenguin.com/ru/ru/##</URL>
+		</COMMUNITY>
+
+		<PARENTS POS_X="435">
+			<TEXT>##Eltern##</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/ru/parents/##</URL>
+		</PARENTS>
+
+		<TOYS POS_X="520">
+			<TEXT>##Artikel##</TEXT>
+			<URL>##http://www.clubpenguin.com/ru/ru/products/##</URL>
+		</TOYS>
+
+		<HELP POS_X="605">
+			<TEXT>##Hilfe##</TEXT>
+			<URL>##http://support.clubpenguin.com/ru/ru/help/##</URL>
+		</HELP>
+	</MENU>
+
+</NAVIGATION>

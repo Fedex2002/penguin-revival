@@ -1,6 +1,5 @@
 # Ignorar carpetas pesadas
-legacy-media/
-vanilla-media/
+
 
 # Ignorar cualquier archivo grande por tipo
 *.swf

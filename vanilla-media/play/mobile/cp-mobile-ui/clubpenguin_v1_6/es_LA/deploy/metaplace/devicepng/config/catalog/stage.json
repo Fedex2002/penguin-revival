@@ -1,0 +1,4202 @@
+{
+  "dynamic" : {
+    "images" : [ {
+      "name" : "stage_icon",
+      "originX" : 89,
+      "originY" : 35,
+      "width" : 47,
+      "height" : 49,
+      "image" : "catalog/stage/stage_icon.png"
+    } ]
+  },
+  "layout" : {
+    "labels" : [ {
+      "color" : "#6a4e27",
+      "originX" : 133,
+      "originY" : 43,
+      "width" : 273.8,
+      "size" : "20",
+      "name" : "stage_text",
+      "token" : "stage.catalog_header.stage_text",
+      "align" : "center",
+      "height" : 29.85,
+      "font" : "cpBurbankSmallBold"
+    } ],
+    "frames" : [ {
+      "name" : "stage",
+      "originX" : 15,
+      "originY" : 81,
+      "width" : 993,
+      "height" : 618,
+      "configurator_id" : 0
+    } ]
+  },
+  "sourceWidth" : 1024,
+  "sourceHeight" : 768,
+  "configurator" : [ {
+    "is_member" : "false",
+    "prompt" : "Volcanic",
+    "category" : "paper_item",
+    "id" : "992",
+    "label" : "Volcanic",
+    "cost" : "60",
+    "type" : "9"
+  }, {
+    "is_member" : "false",
+    "prompt" : "Adventure",
+    "category" : "paper_item",
+    "id" : "987",
+    "label" : "Adventure",
+    "cost" : "60",
+    "type" : "9"
+  }, {
+    "is_member" : "false",
+    "prompt" : "Underwater Stage",
+    "category" : "paper_item",
+    "id" : "9039",
+    "label" : "Underwater Stage",
+    "cost" : "60",
+    "type" : "9"
+  }, {
+    "is_member" : "false",
+    "prompt" : "Viking Background",
+    "category" : "paper_item",
+    "id" : "9027",
+    "label" : "Viking Background",
+    "cost" : "60",
+    "type" : "9"
+  }, {
+    "is_member" : "false",
+    "prompt" : "Detective",
+    "category" : "paper_item",
+    "id" : "9002",
+    "label" : "Detective",
+    "cost" : "60",
+    "type" : "9"
+  }, {
+    "is_member" : "false",
+    "prompt" : "Cityscape",
+    "category" : "paper_item",
+    "id" : "995",
+    "label" : "Cityscape",
+    "cost" : "60",
+    "type" : "9"
+  }, {
+    "is_member" : "false",
+    "prompt" : "Gym Background",
+    "category" : "paper_item",
+    "id" : "998",
+    "label" : "Gym Background",
+    "cost" : "60",
+    "type" : "9"
+  }, {
+    "is_member" : "false",
+    "prompt" : "Planet Y",
+    "category" : "paper_item",
+    "id" : "9005",
+    "label" : "Planet Y",
+    "cost" : "60",
+    "type" : "9"
+  }, {
+    "is_member" : "false",
+    "prompt" : "Secrets of the Bambo",
+    "category" : "paper_item",
+    "id" : "9056",
+    "label" : "Secrets of the Bambo",
+    "cost" : "60",
+    "type" : "9"
+  }, {
+    "is_member" : "false",
+    "prompt" : "Garden",
+    "category" : "paper_item",
+    "id" : "9047",
+    "label" : "Garden",
+    "cost" : "60",
+    "type" : "9"
+  }, {
+    "is_member" : "false",
+    "prompt" : "Balcony Background",
+    "category" : "paper_item",
+    "id" : "9120",
+    "label" : "Balcony Background",
+    "cost" : "60",
+    "type" : "9"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Director's Hat",
+    "category" : "paper_item",
+    "id" : "489",
+    "label" : "Director's Hat",
+    "cost" : "250",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Megaphone",
+    "category" : "paper_item",
+    "id" : "5580",
+    "label" : "Megaphone",
+    "cost" : "145",
+    "type" : "6"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hair - Fern Fuzz",
+    "category" : "paper_item",
+    "id" : "675",
+    "label" : "Hair - Fern Fuzz",
+    "cost" : "450",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Big Brow",
+    "category" : "paper_item",
+    "id" : "126",
+    "label" : "Big Brow",
+    "cost" : "50",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Primitive Necklace",
+    "category" : "paper_item",
+    "id" : "190",
+    "label" : "Primitive Necklace",
+    "cost" : "100",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Tiger Cave Toga",
+    "category" : "paper_item",
+    "id" : "834",
+    "label" : "Tiger Cave Toga",
+    "cost" : "350",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Zebra Cave Toga",
+    "category" : "paper_item",
+    "id" : "835",
+    "label" : "Zebra Cave Toga",
+    "cost" : "350",
+    "type" : "5"
+  }, {
+    "is_member" : "false",
+    "prompt" : "Time Travel Hat",
+    "category" : "paper_item",
+    "id" : "676",
+    "label" : "Time Travel Hat",
+    "cost" : "10",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Blue Tiki Mask",
+    "category" : "paper_item",
+    "id" : "127",
+    "label" : "Blue Tiki Mask",
+    "cost" : "300",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Pink Tiki Mask",
+    "category" : "paper_item",
+    "id" : "128",
+    "label" : "Pink Tiki Mask",
+    "cost" : "300",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hat Alaska's Explore",
+    "category" : "paper_item",
+    "id" : "665",
+    "label" : "Hat Alaska's Explore",
+    "cost" : "300",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Safari Hat",
+    "category" : "paper_item",
+    "id" : "432",
+    "label" : "Safari Hat",
+    "cost" : "250",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Sienna Explorer Outf",
+    "category" : "paper_item",
+    "id" : "786",
+    "label" : "Sienna Explorer Outf",
+    "cost" : "650",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Supply Bag",
+    "category" : "paper_item",
+    "id" : "316",
+    "label" : "Supply Bag",
+    "cost" : "700",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Lasso",
+    "category" : "paper_item",
+    "id" : "327",
+    "label" : "Lasso",
+    "cost" : "150",
+    "type" : "6"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Beige Explorer Outfi",
+    "category" : "paper_item",
+    "id" : "787",
+    "label" : "Beige Explorer Outfi",
+    "cost" : "650",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Pharaoh Headdress",
+    "category" : "paper_item",
+    "id" : "666",
+    "label" : "Pharaoh Headdress",
+    "cost" : "500",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Pharaoh Costume",
+    "category" : "paper_item",
+    "id" : "788",
+    "label" : "Pharaoh Costume",
+    "cost" : "550",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Gold Bracelets",
+    "category" : "paper_item",
+    "id" : "715",
+    "label" : "Gold Bracelets",
+    "cost" : "200",
+    "type" : "6"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Mummy Costume",
+    "category" : "paper_item",
+    "id" : "789",
+    "label" : "Mummy Costume",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Superhero Mask Blue",
+    "category" : "paper_item",
+    "id" : "123",
+    "label" : "Superhero Mask Blue",
+    "cost" : "100",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Superhero Mask Pink",
+    "category" : "paper_item",
+    "id" : "124",
+    "label" : "Superhero Mask Pink",
+    "cost" : "100",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Blue Cape",
+    "category" : "paper_item",
+    "id" : "302",
+    "label" : "Blue Cape",
+    "cost" : "200",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Pink Cape",
+    "category" : "paper_item",
+    "id" : "315",
+    "label" : "Pink Cape",
+    "cost" : "200",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Shadow Guy Costume",
+    "category" : "paper_item",
+    "id" : "765",
+    "label" : "Shadow Guy Costume",
+    "cost" : "550",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Gamma Gal Costume",
+    "category" : "paper_item",
+    "id" : "766",
+    "label" : "Gamma Gal Costume",
+    "cost" : "550",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Squid Costume",
+    "category" : "paper_item",
+    "id" : "767",
+    "label" : "Squid Costume",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Black Glasses",
+    "category" : "paper_item",
+    "id" : "113",
+    "label" : "Black Glasses",
+    "cost" : "225",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Camera",
+    "category" : "paper_item",
+    "id" : "195",
+    "label" : "Camera",
+    "cost" : "300",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Snow Monkey",
+    "category" : "paper_item",
+    "id" : "4457",
+    "label" : "Snow Monkey",
+    "cost" : "550",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Snow Monkey Feet",
+    "category" : "paper_item",
+    "id" : "6096",
+    "label" : "Snow Monkey Feet",
+    "cost" : "150",
+    "type" : "7"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Ancient Dragon",
+    "category" : "paper_item",
+    "id" : "4456",
+    "label" : "Ancient Dragon",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Ancient Dragon Feet",
+    "category" : "paper_item",
+    "id" : "6095",
+    "label" : "Ancient Dragon Feet",
+    "cost" : "150",
+    "type" : "7"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Sage Fish",
+    "category" : "paper_item",
+    "id" : "4455",
+    "label" : "Sage Fish",
+    "cost" : "400",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Scuba Tank",
+    "category" : "paper_item",
+    "id" : "308",
+    "label" : "Scuba Tank",
+    "cost" : "480",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Mask & Snorkel Blue",
+    "category" : "paper_item",
+    "id" : "132",
+    "label" : "Mask & Snorkel Blue",
+    "cost" : "250",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Scuba Mask Black",
+    "category" : "paper_item",
+    "id" : "2003",
+    "label" : "Scuba Mask Black",
+    "cost" : "200",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Bathing Suit Blue Ra",
+    "category" : "paper_item",
+    "id" : "4113",
+    "label" : "Bathing Suit Blue Ra",
+    "cost" : "500",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Wetsuit Green",
+    "category" : "paper_item",
+    "id" : "4114",
+    "label" : "Wetsuit Green",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Flippers Blue",
+    "category" : "paper_item",
+    "id" : "364",
+    "label" : "Flippers Blue",
+    "cost" : "225",
+    "type" : "7"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Flippers Yellow",
+    "category" : "paper_item",
+    "id" : "367",
+    "label" : "Flippers Yellow",
+    "cost" : "200",
+    "type" : "7"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hair - The Blue Lago",
+    "category" : "paper_item",
+    "id" : "1076",
+    "label" : "Hair - The Blue Lago",
+    "cost" : "550",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Mermaid Costume",
+    "category" : "paper_item",
+    "id" : "768",
+    "label" : "Mermaid Costume",
+    "cost" : "500",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hair - The Surf",
+    "category" : "paper_item",
+    "id" : "1077",
+    "label" : "Hair - The Surf",
+    "cost" : "400",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Merpenguin Tail",
+    "category" : "paper_item",
+    "id" : "4110",
+    "label" : "Merpenguin Tail",
+    "cost" : "500",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Shell Collar",
+    "category" : "paper_item",
+    "id" : "3029",
+    "label" : "Shell Collar",
+    "cost" : "100",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Shell Cuffs",
+    "category" : "paper_item",
+    "id" : "5044",
+    "label" : "Shell Cuffs",
+    "cost" : "250",
+    "type" : "6"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Wise Fish Costume",
+    "category" : "paper_item",
+    "id" : "4112",
+    "label" : "Wise Fish Costume",
+    "cost" : "500",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Lobster Costume",
+    "category" : "paper_item",
+    "id" : "4111",
+    "label" : "Lobster Costume",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Viking Helmet Jewele",
+    "category" : "paper_item",
+    "id" : "1057",
+    "label" : "Viking Helmet Jewele",
+    "cost" : "550",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Viking Helmet Black",
+    "category" : "paper_item",
+    "id" : "1056",
+    "label" : "Viking Helmet Black",
+    "cost" : "550",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Viking Dress Pink",
+    "category" : "paper_item",
+    "id" : "4085",
+    "label" : "Viking Dress Pink",
+    "cost" : "475",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Viking Costume Brown",
+    "category" : "paper_item",
+    "id" : "4086",
+    "label" : "Viking Costume Brown",
+    "cost" : "475",
+    "type" : "5"
+  }, {
+    "is_member" : "false",
+    "prompt" : "Ghost Costume",
+    "category" : "paper_item",
+    "id" : "244",
+    "label" : "Ghost Costume",
+    "cost" : "0",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Detective Coat Dark",
+    "category" : "paper_item",
+    "id" : "4015",
+    "label" : "Detective Coat Dark",
+    "cost" : "650",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Flashlight",
+    "category" : "paper_item",
+    "id" : "347",
+    "label" : "Flashlight",
+    "cost" : "120",
+    "type" : "6"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hair - The Movie Sta",
+    "category" : "paper_item",
+    "id" : "1010",
+    "label" : "Hair - The Movie Sta",
+    "cost" : "600",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Grey Fedora",
+    "category" : "paper_item",
+    "id" : "1009",
+    "label" : "Grey Fedora",
+    "cost" : "250",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Pearl Necklace",
+    "category" : "paper_item",
+    "id" : "181",
+    "label" : "Pearl Necklace",
+    "cost" : "550",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Detective Coat",
+    "category" : "paper_item",
+    "id" : "4012",
+    "label" : "Detective Coat",
+    "cost" : "650",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Dress Dazzle",
+    "category" : "paper_item",
+    "id" : "842",
+    "label" : "Dress Dazzle",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Magnifying Glass",
+    "category" : "paper_item",
+    "id" : "5003",
+    "label" : "Magnifying Glass",
+    "cost" : "150",
+    "type" : "6"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Doorman Cap",
+    "category" : "paper_item",
+    "id" : "1012",
+    "label" : "Doorman Cap",
+    "cost" : "150",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Jacket Doorman",
+    "category" : "paper_item",
+    "id" : "4014",
+    "label" : "Jacket Doorman",
+    "cost" : "400",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Black Zoot Shoes",
+    "category" : "paper_item",
+    "id" : "6008",
+    "label" : "Black Zoot Shoes",
+    "cost" : "450",
+    "type" : "7"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hat Blue Felt",
+    "category" : "paper_item",
+    "id" : "1011",
+    "label" : "Hat Blue Felt",
+    "cost" : "300",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Tie Skinny Blue",
+    "category" : "paper_item",
+    "id" : "3005",
+    "label" : "Tie Skinny Blue",
+    "cost" : "150",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Blue Zoot Suit",
+    "category" : "paper_item",
+    "id" : "4013",
+    "label" : "Blue Zoot Suit",
+    "cost" : "700",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hair - Fairytails",
+    "category" : "paper_item",
+    "id" : "1025",
+    "label" : "Hair - Fairytails",
+    "cost" : "400",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Twees Costume",
+    "category" : "paper_item",
+    "id" : "4038",
+    "label" : "Twees Costume",
+    "cost" : "500",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Wings Twee",
+    "category" : "paper_item",
+    "id" : "3008",
+    "label" : "Wings Twee",
+    "cost" : "400",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Prince Red Hood Hat",
+    "category" : "paper_item",
+    "id" : "1023",
+    "label" : "Prince Red Hood Hat",
+    "cost" : "300",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Prince Red Hood Cost",
+    "category" : "paper_item",
+    "id" : "4036",
+    "label" : "Prince Red Hood Cost",
+    "cost" : "400",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Red Cape",
+    "category" : "paper_item",
+    "id" : "301",
+    "label" : "Red Cape",
+    "cost" : "200",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Big Bad Wool Suit",
+    "category" : "paper_item",
+    "id" : "4039",
+    "label" : "Big Bad Wool Suit",
+    "cost" : "450",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Big Bad Wool Hooves",
+    "category" : "paper_item",
+    "id" : "6010",
+    "label" : "Big Bad Wool Hooves",
+    "cost" : "200",
+    "type" : "7"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hair - Beautiful Bra",
+    "category" : "paper_item",
+    "id" : "1024",
+    "label" : "Hair - Beautiful Bra",
+    "cost" : "350",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Grumpunzels Dress",
+    "category" : "paper_item",
+    "id" : "4037",
+    "label" : "Grumpunzels Dress",
+    "cost" : "400",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hair - Rad Scientist",
+    "category" : "paper_item",
+    "id" : "1015",
+    "label" : "Hair - Rad Scientist",
+    "cost" : "350",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Rad Scientist Costum",
+    "category" : "paper_item",
+    "id" : "4018",
+    "label" : "Rad Scientist Costum",
+    "cost" : "500",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Sled Costume",
+    "category" : "paper_item",
+    "id" : "4426",
+    "label" : "Sled Costume",
+    "cost" : "550",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Zeus The Moose Head",
+    "category" : "paper_item",
+    "id" : "479",
+    "label" : "Zeus The Moose Head",
+    "cost" : "450",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Blue Track Jacket",
+    "category" : "paper_item",
+    "id" : "771",
+    "label" : "Blue Track Jacket",
+    "cost" : "400",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Red Track Jacket",
+    "category" : "paper_item",
+    "id" : "4004",
+    "label" : "Red Track Jacket",
+    "cost" : "400",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Red Cheerleader Outfit",
+    "category" : "paper_item",
+    "id" : "254",
+    "label" : "Red Cheerleader Outfit",
+    "cost" : "350",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "The Sidetied",
+    "category" : "paper_item",
+    "id" : "658",
+    "label" : "The Sidetied",
+    "cost" : "500",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Red Sunglasses",
+    "category" : "paper_item",
+    "id" : "110",
+    "label" : "Red Sunglasses",
+    "cost" : "150",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Referee Jersey",
+    "category" : "paper_item",
+    "id" : "722",
+    "label" : "Referee Jersey",
+    "cost" : "300",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Silver Whistle",
+    "category" : "paper_item",
+    "id" : "3002",
+    "label" : "Silver Whistle",
+    "cost" : "100",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Migrator Mascot Head",
+    "category" : "paper_item",
+    "id" : "659",
+    "label" : "Migrator Mascot Head",
+    "cost" : "450",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Migrator Mascot Body",
+    "category" : "paper_item",
+    "id" : "772",
+    "label" : "Migrator Mascot Body",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "The Cosmic",
+    "category" : "paper_item",
+    "id" : "1199",
+    "label" : "The Cosmic",
+    "cost" : "350",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Pink Cosmic Dress",
+    "category" : "paper_item",
+    "id" : "4280",
+    "label" : "Pink Cosmic Dress",
+    "cost" : "400",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Space Suit Orange",
+    "category" : "paper_item",
+    "id" : "245",
+    "label" : "Space Suit Orange",
+    "cost" : "700",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Space Suit Purple",
+    "category" : "paper_item",
+    "id" : "268",
+    "label" : "Space Suit Purple",
+    "cost" : "700",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Space Helmet",
+    "category" : "paper_item",
+    "id" : "458",
+    "label" : "Space Helmet",
+    "cost" : "500",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Alien Mask",
+    "category" : "paper_item",
+    "id" : "120",
+    "label" : "Alien Mask",
+    "cost" : "300",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Alien",
+    "category" : "paper_item",
+    "id" : "266",
+    "label" : "Alien",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Robot Helmet",
+    "category" : "paper_item",
+    "id" : "122",
+    "label" : "Robot Helmet",
+    "cost" : "300",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Robot",
+    "category" : "paper_item",
+    "id" : "276",
+    "label" : "Robot",
+    "cost" : "800",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Alien Thinking Cap",
+    "category" : "paper_item",
+    "id" : "1016",
+    "label" : "Alien Thinking Cap",
+    "cost" : "350",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Blue Alien Mask",
+    "category" : "paper_item",
+    "id" : "2004",
+    "label" : "Blue Alien Mask",
+    "cost" : "300",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Blue Alien Costume",
+    "category" : "paper_item",
+    "id" : "4021",
+    "label" : "Blue Alien Costume",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Pig Hat",
+    "category" : "paper_item",
+    "id" : "1116",
+    "label" : "Pig Hat",
+    "cost" : "275",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Pig Snout",
+    "category" : "paper_item",
+    "id" : "2016",
+    "label" : "Pig Snout",
+    "cost" : "250",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Pig Costume",
+    "category" : "paper_item",
+    "id" : "4192",
+    "label" : "Pig Costume",
+    "cost" : "400",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Monkey King Mask",
+    "category" : "paper_item",
+    "id" : "1114",
+    "label" : "Monkey King Mask",
+    "cost" : "350",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Monkey King Costume",
+    "category" : "paper_item",
+    "id" : "4190",
+    "label" : "Monkey King Costume",
+    "cost" : "400",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Monkey King Feet",
+    "category" : "paper_item",
+    "id" : "6033",
+    "label" : "Monkey King Feet",
+    "cost" : "250",
+    "type" : "7"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hair - The Phoenix",
+    "category" : "paper_item",
+    "id" : "1115",
+    "label" : "Hair - The Phoenix",
+    "cost" : "550",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Phoenix Dress",
+    "category" : "paper_item",
+    "id" : "4191",
+    "label" : "Phoenix Dress",
+    "cost" : "400",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Wings Phoenix",
+    "category" : "paper_item",
+    "id" : "3041",
+    "label" : "Wings Phoenix",
+    "cost" : "400",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Guardian Dog Hat",
+    "category" : "paper_item",
+    "id" : "1117",
+    "label" : "Guardian Dog Hat",
+    "cost" : "320",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Guardian Dog Muzzle",
+    "category" : "paper_item",
+    "id" : "2017",
+    "label" : "Guardian Dog Muzzle",
+    "cost" : "250",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Guardian Dog Costume",
+    "category" : "paper_item",
+    "id" : "4194",
+    "label" : "Guardian Dog Costume",
+    "cost" : "400",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Guardian Dog Feet",
+    "category" : "paper_item",
+    "id" : "6034",
+    "label" : "Guardian Dog Feet",
+    "cost" : "200",
+    "type" : "7"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Fish Costume",
+    "category" : "paper_item",
+    "id" : "763",
+    "label" : "Fish Costume",
+    "cost" : "500",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Flippers Yellow",
+    "category" : "paper_item",
+    "id" : "367",
+    "label" : "Flippers Yellow",
+    "cost" : "200",
+    "type" : "7"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Court Jester Hat",
+    "category" : "paper_item",
+    "id" : "477",
+    "label" : "Court Jester Hat",
+    "cost" : "250",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Court Jester Outfit",
+    "category" : "paper_item",
+    "id" : "762",
+    "label" : "Court Jester Outfit",
+    "cost" : "550",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Bard Hat",
+    "category" : "paper_item",
+    "id" : "476",
+    "label" : "Bard Hat",
+    "cost" : "200",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Bard Outfit",
+    "category" : "paper_item",
+    "id" : "761",
+    "label" : "Bard Outfit",
+    "cost" : "550",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Countess Steeple Hat",
+    "category" : "paper_item",
+    "id" : "475",
+    "label" : "Countess Steeple Hat",
+    "cost" : "400",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Countess Dress",
+    "category" : "paper_item",
+    "id" : "760",
+    "label" : "Countess Dress",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Bee Costume",
+    "category" : "paper_item",
+    "id" : "227",
+    "label" : "Bee Costume",
+    "cost" : "450",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Wings Bee",
+    "category" : "paper_item",
+    "id" : "309",
+    "label" : "Wings Bee",
+    "cost" : "350",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Antennae Bee",
+    "category" : "paper_item",
+    "id" : "472",
+    "label" : "Antennae Bee",
+    "cost" : "200",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Spider Costume",
+    "category" : "paper_item",
+    "id" : "4138",
+    "label" : "Spider Costume",
+    "cost" : "680",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Snail Costume",
+    "category" : "paper_item",
+    "id" : "4135",
+    "label" : "Snail Costume",
+    "cost" : "700",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hat Buckle",
+    "category" : "paper_item",
+    "id" : "1102",
+    "label" : "Hat Buckle",
+    "cost" : "250",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "White Fuzzy Beard",
+    "category" : "paper_item",
+    "id" : "3037",
+    "label" : "White Fuzzy Beard",
+    "cost" : "150",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Gnome Costume",
+    "category" : "paper_item",
+    "id" : "4136",
+    "label" : "Gnome Costume",
+    "cost" : "375",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Hair - The Flutter",
+    "category" : "paper_item",
+    "id" : "1101",
+    "label" : "Hair - The Flutter",
+    "cost" : "400",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Wings Moth",
+    "category" : "paper_item",
+    "id" : "3036",
+    "label" : "Wings Moth",
+    "cost" : "350",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Dress Petal",
+    "category" : "paper_item",
+    "id" : "4137",
+    "label" : "Dress Petal",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "The Burly Beard",
+    "category" : "paper_item",
+    "id" : "2043",
+    "label" : "The Burly Beard",
+    "cost" : "150",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Ghost of Yesterday",
+    "category" : "paper_item",
+    "id" : "4466",
+    "label" : "Ghost of Yesterday",
+    "cost" : "350",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Ghost of Today",
+    "category" : "paper_item",
+    "id" : "4467",
+    "label" : "Ghost of Today",
+    "cost" : "450",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Ghost of Tomorrow",
+    "category" : "paper_item",
+    "id" : "4468",
+    "label" : "Ghost of Tomorrow",
+    "cost" : "400",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Humbug Hat",
+    "category" : "paper_item",
+    "id" : "1106",
+    "label" : "Humbug Hat",
+    "cost" : "350",
+    "type" : "2"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Humbug Coat",
+    "category" : "paper_item",
+    "id" : "4146",
+    "label" : "Humbug Coat",
+    "cost" : "600",
+    "type" : "5"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Monocle",
+    "category" : "paper_item",
+    "id" : "119",
+    "label" : "Monocle",
+    "cost" : "160",
+    "type" : "3"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Scarf Tri-Color",
+    "category" : "paper_item",
+    "id" : "3038",
+    "label" : "Scarf Tri-Color",
+    "cost" : "150",
+    "type" : "4"
+  }, {
+    "is_member" : "true",
+    "prompt" : "Iron Lantern",
+    "category" : "paper_item",
+    "id" : "5131",
+    "label" : "Iron Lantern",
+    "cost" : "150",
+    "type" : "6"
+  } ],
+  "components" : [ {
+    "name" : "stage_fc",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/34b180cf-a135-4966-9e70-01dc4a196e40_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page01",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Volcanic",
+        "originX" : 97,
+        "originY" : 108,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 992,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Adventure Background",
+        "originX" : 278,
+        "originY" : 108,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 987,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Underwater Adventure Background",
+        "originX" : 97,
+        "originY" : 262,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 9039,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Viking Background",
+        "originX" : 278,
+        "originY" : 262,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 9027,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Detective Background",
+        "originX" : 97,
+        "originY" : 420,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 9002,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Cityscape Background",
+        "originX" : 278,
+        "originY" : 420,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 995,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/dd40e515-b6df-4a3b-bda8-0b7a2d86d01e_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page02",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Volcanic",
+        "originX" : -400,
+        "originY" : 108,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 992,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Adventure Background",
+        "originX" : -218,
+        "originY" : 108,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 987,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Underwater Adventure Background",
+        "originX" : -400,
+        "originY" : 262,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 9039,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Viking Background",
+        "originX" : -218,
+        "originY" : 262,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 9027,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Detective Background",
+        "originX" : -400,
+        "originY" : 420,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 9002,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Cityscape Background",
+        "originX" : -218,
+        "originY" : 420,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 995,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Gym Background",
+        "originX" : 95,
+        "originY" : 108,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 998,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Planet Y Background",
+        "originX" : 281,
+        "originY" : 108,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 9005,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Secrets of the Bamboo Forest Background",
+        "originX" : 95,
+        "originY" : 262,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 9056,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Garden Background",
+        "originX" : 281,
+        "originY" : 262,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 9047,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Balcony Background",
+        "originX" : 189,
+        "originY" : 420,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 9120,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/dd40e515-b6df-4a3b-bda8-0b7a2d86d01e_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page03",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Director's Hat",
+        "originX" : 269,
+        "originY" : 98,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 489,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Megaphone",
+        "originX" : 106,
+        "originY" : 305,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 5580,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/981312a7-50a4-421b-b61f-fb9a6e532b2d_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page04",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Director's Hat",
+        "originX" : -228,
+        "originY" : 98,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 489,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Megaphone",
+        "originX" : -391,
+        "originY" : 305,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 5580,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/981312a7-50a4-421b-b61f-fb9a6e532b2d_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page05",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/c0134557-af67-407c-8dba-0d7c192a749e_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page06",
+    "layout" : {
+      "frames" : [ {
+        "name" : "The Fern Fuzz",
+        "originX" : 91,
+        "originY" : 117,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 675,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Big Brow",
+        "originX" : 292,
+        "originY" : 59,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 126,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Primitive Necklace",
+        "originX" : 292,
+        "originY" : 215,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 190,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Tiger Cave Toga",
+        "originX" : 79,
+        "originY" : 272,
+        "width" : 141,
+        "height" : 160,
+        "configurator_id" : 834,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Zebra Cave Toga",
+        "originX" : 278,
+        "originY" : 360,
+        "width" : 145,
+        "height" : 165,
+        "configurator_id" : 835,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/c0134557-af67-407c-8dba-0d7c192a749e_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page07",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Blue Tiki Mask",
+        "originX" : 0,
+        "originY" : 104,
+        "width" : 248,
+        "height" : 291,
+        "configurator_id" : 127,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Pink Tiki Mask",
+        "originX" : 263,
+        "originY" : 254,
+        "width" : 222,
+        "height" : 261,
+        "configurator_id" : 128,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/93fdaff7-a769-4f16-afe1-1e40cdca0ab5_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page08",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Cheap Time Travel Hat",
+        "originX" : 53,
+        "originY" : 65,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 676,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Tiki Mask",
+        "originX" : -497,
+        "originY" : 104,
+        "width" : 248,
+        "height" : 291,
+        "configurator_id" : 127,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Pink Tiki Mask",
+        "originX" : -234,
+        "originY" : 254,
+        "width" : 222,
+        "height" : 261,
+        "configurator_id" : 128,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/93fdaff7-a769-4f16-afe1-1e40cdca0ab5_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page09",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/2698d455-b1de-4314-8fa1-8e19087dfbae_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page10",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Alaska's Explorer Hat",
+        "originX" : 83,
+        "originY" : 63,
+        "width" : 127,
+        "height" : 141,
+        "configurator_id" : 665,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Safari Hat",
+        "originX" : 285,
+        "originY" : 65,
+        "width" : 124,
+        "height" : 138,
+        "configurator_id" : 432,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Sienna Explorer Outfit",
+        "originX" : 73,
+        "originY" : 213,
+        "width" : 152,
+        "height" : 158,
+        "configurator_id" : 786,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Supply Bag",
+        "originX" : 295,
+        "originY" : 232,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 316,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Lasso",
+        "originX" : 94,
+        "originY" : 395,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 327,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Beige Explorer Outfit",
+        "originX" : 285,
+        "originY" : 379,
+        "width" : 145,
+        "height" : 156,
+        "configurator_id" : 787,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/2698d455-b1de-4314-8fa1-8e19087dfbae_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page11",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/143cb76a-182c-46ea-bb93-783b36835d08_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page12",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Pharaoh Headdress",
+        "originX" : 285,
+        "originY" : 75,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 666,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Pharaoh Costume",
+        "originX" : 267,
+        "originY" : 225,
+        "width" : 168,
+        "height" : 177,
+        "configurator_id" : 788,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Gold Bracelets",
+        "originX" : 289,
+        "originY" : 407,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 715,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Mummy Costume",
+        "originX" : 52,
+        "originY" : 182,
+        "width" : 178,
+        "height" : 198,
+        "configurator_id" : 789,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/143cb76a-182c-46ea-bb93-783b36835d08_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page13",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/79517fd5-8d36-4d35-b046-1b86bdaa6787_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page14",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Blue Superhero Mask",
+        "originX" : 98,
+        "originY" : 49,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 123,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Pink Superhero Mask",
+        "originX" : 299,
+        "originY" : 49,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 124,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Cape",
+        "originX" : 95,
+        "originY" : 195,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 302,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Pink Cape",
+        "originX" : 301,
+        "originY" : 195,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 315,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Shadow Guy Costume",
+        "originX" : 85,
+        "originY" : 346,
+        "width" : 150,
+        "height" : 163,
+        "configurator_id" : 765,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Gamma Gal Costume",
+        "originX" : 285,
+        "originY" : 347,
+        "width" : 152,
+        "height" : 162,
+        "configurator_id" : 766,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/79517fd5-8d36-4d35-b046-1b86bdaa6787_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page15",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/6410a32a-ed1f-486a-9e5c-fbb5f9f77daf_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page16",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Squidzoid Costume",
+        "originX" : 5,
+        "originY" : 49,
+        "width" : 283,
+        "height" : 299,
+        "configurator_id" : 767,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Black Glasses",
+        "originX" : 302,
+        "originY" : 55,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 113,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Camera",
+        "originX" : 305,
+        "originY" : 236,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 195,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/6410a32a-ed1f-486a-9e5c-fbb5f9f77daf_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page17",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/78ce2192-ae5c-4da8-a47a-8df9eb498734_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page18",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Snow Monkey",
+        "originX" : 82,
+        "originY" : 31,
+        "width" : 164,
+        "height" : 201,
+        "configurator_id" : 4457,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Snow Monkey Feet",
+        "originX" : 105,
+        "originY" : 237,
+        "width" : 118,
+        "height" : 129,
+        "configurator_id" : 6096,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Ancient Dragon",
+        "originX" : 268,
+        "originY" : 168,
+        "width" : 179,
+        "height" : 192,
+        "configurator_id" : 4456,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Ancient Dragon Feet",
+        "originX" : 300,
+        "originY" : 361,
+        "width" : 132,
+        "height" : 138,
+        "configurator_id" : 6095,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Sage Fish",
+        "originX" : 73,
+        "originY" : 379,
+        "width" : 182,
+        "height" : 210,
+        "configurator_id" : 4455,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/78ce2192-ae5c-4da8-a47a-8df9eb498734_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page19",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Scuba Tank",
+        "originX" : 51,
+        "originY" : 95,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 308,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/7551ba77-c21a-4cc7-a01b-a1dcae7b87b7_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page20",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Scuba Tank",
+        "originX" : -446,
+        "originY" : 95,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 308,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Snorkel",
+        "originX" : 92,
+        "originY" : 58,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 132,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Black Scuba Mask",
+        "originX" : 274,
+        "originY" : 58,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 2003,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Racing Bathing Suit",
+        "originX" : 91,
+        "originY" : 235,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 4113,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Green Wetsuit",
+        "originX" : 274,
+        "originY" : 235,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 4114,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Flippers",
+        "originX" : 93,
+        "originY" : 395,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 364,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Yellow Flippers",
+        "originX" : 272,
+        "originY" : 395,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 367,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/7551ba77-c21a-4cc7-a01b-a1dcae7b87b7_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page21",
+    "layout" : {
+      "frames" : [ {
+        "name" : "The Blue Lagoon",
+        "originX" : 35,
+        "originY" : 91,
+        "width" : 127,
+        "height" : 159,
+        "configurator_id" : 1076,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Mermaid Costume",
+        "originX" : 23,
+        "originY" : 252,
+        "width" : 154,
+        "height" : 176,
+        "configurator_id" : 768,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "The Surf",
+        "originX" : 194,
+        "originY" : 196,
+        "width" : 123,
+        "height" : 136,
+        "configurator_id" : 1077,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Merpenguin Fin",
+        "originX" : 177,
+        "originY" : 358,
+        "width" : 158,
+        "height" : 166,
+        "configurator_id" : 4110,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Shell Collar",
+        "originX" : 355,
+        "originY" : 112,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 3029,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Shell Cuffs",
+        "originX" : 355,
+        "originY" : 288,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 5044,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/802b9d80-693f-4165-8aca-1220b559654a_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page22",
+    "layout" : {
+      "frames" : [ {
+        "name" : "The Blue Lagoon",
+        "originX" : -462,
+        "originY" : 91,
+        "width" : 127,
+        "height" : 159,
+        "configurator_id" : 1076,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Mermaid Costume",
+        "originX" : -474,
+        "originY" : 252,
+        "width" : 154,
+        "height" : 176,
+        "configurator_id" : 768,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "The Surf",
+        "originX" : -303,
+        "originY" : 196,
+        "width" : 123,
+        "height" : 136,
+        "configurator_id" : 1077,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Merpenguin Fin",
+        "originX" : -320,
+        "originY" : 358,
+        "width" : 158,
+        "height" : 166,
+        "configurator_id" : 4110,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Shell Collar",
+        "originX" : -142,
+        "originY" : 112,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 3029,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Shell Cuffs",
+        "originX" : -142,
+        "originY" : 288,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 5044,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/802b9d80-693f-4165-8aca-1220b559654a_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page23",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Wise Fish Costume",
+        "originX" : 69,
+        "originY" : 171,
+        "width" : 158,
+        "height" : 182,
+        "configurator_id" : 4112,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Lobster Costume",
+        "originX" : 278,
+        "originY" : 165,
+        "width" : 156,
+        "height" : 185,
+        "configurator_id" : 4111,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/f655e5da-7484-41a3-b347-b1d0e19dd5f5_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page24",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Wise Fish Costume",
+        "originX" : -428,
+        "originY" : 171,
+        "width" : 158,
+        "height" : 182,
+        "configurator_id" : 4112,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Lobster Costume",
+        "originX" : -219,
+        "originY" : 165,
+        "width" : 156,
+        "height" : 185,
+        "configurator_id" : 4111,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/f655e5da-7484-41a3-b347-b1d0e19dd5f5_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page25",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Jewelled Viking Helmet",
+        "originX" : 292,
+        "originY" : 82,
+        "width" : 148,
+        "height" : 178,
+        "configurator_id" : 1057,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Black Viking Helmet",
+        "originX" : 93,
+        "originY" : 95,
+        "width" : 148,
+        "height" : 165,
+        "configurator_id" : 1056,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Pink Viking Dress",
+        "originX" : 295,
+        "originY" : 280,
+        "width" : 146,
+        "height" : 168,
+        "configurator_id" : 4085,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Brown Viking Costume",
+        "originX" : 90,
+        "originY" : 282,
+        "width" : 152,
+        "height" : 167,
+        "configurator_id" : 4086,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/d4495ae9-5a8d-4f17-b806-e2cd9c05cd9f_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page26",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Jewelled Viking Helmet",
+        "originX" : -205,
+        "originY" : 82,
+        "width" : 148,
+        "height" : 178,
+        "configurator_id" : 1057,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Black Viking Helmet",
+        "originX" : -404,
+        "originY" : 95,
+        "width" : 148,
+        "height" : 165,
+        "configurator_id" : 1056,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Pink Viking Dress",
+        "originX" : -202,
+        "originY" : 280,
+        "width" : 146,
+        "height" : 168,
+        "configurator_id" : 4085,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Brown Viking Costume",
+        "originX" : -407,
+        "originY" : 282,
+        "width" : 152,
+        "height" : 167,
+        "configurator_id" : 4086,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/d4495ae9-5a8d-4f17-b806-e2cd9c05cd9f_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page27",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Dark Detective's Coat",
+        "originX" : 166,
+        "originY" : 107,
+        "width" : 174,
+        "height" : 194,
+        "configurator_id" : 4015,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Flashlight",
+        "originX" : 192,
+        "originY" : 323,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 347,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/e8a4e42b-86df-44c4-b7cc-a4f81afc268f_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page28",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Ghost Costume",
+        "originX" : 39,
+        "originY" : 43,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 244,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Dark Detective's Coat",
+        "originX" : -331,
+        "originY" : 107,
+        "width" : 174,
+        "height" : 194,
+        "configurator_id" : 4015,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Flashlight",
+        "originX" : -305,
+        "originY" : 323,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 347,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/e8a4e42b-86df-44c4-b7cc-a4f81afc268f_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page29",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/79398a33-1c10-4c9b-b417-0ad3cb15d7ca_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page30",
+    "layout" : {
+      "frames" : [ {
+        "name" : "The Movie Star",
+        "originX" : 96,
+        "originY" : 53,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1010,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Grey Fedora",
+        "originX" : 286,
+        "originY" : 55,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1009,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Pearl Necklace",
+        "originX" : 96,
+        "originY" : 222,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 181,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Detective's Coat",
+        "originX" : 270,
+        "originY" : 198,
+        "width" : 159,
+        "height" : 164,
+        "configurator_id" : 4012,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Dazzle Dress",
+        "originX" : 79,
+        "originY" : 366,
+        "width" : 160,
+        "height" : 169,
+        "configurator_id" : 842,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Magnifying Glass",
+        "originX" : 286,
+        "originY" : 394,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 5003,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/79398a33-1c10-4c9b-b417-0ad3cb15d7ca_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page31",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Doorman's Cap",
+        "originX" : 95,
+        "originY" : 72,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1012,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Doorman's Jacket",
+        "originX" : 78,
+        "originY" : 210,
+        "width" : 155,
+        "height" : 161,
+        "configurator_id" : 4014,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Black Zoot Shoes",
+        "originX" : 95,
+        "originY" : 397,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 6008,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Felt Hat",
+        "originX" : 302,
+        "originY" : 72,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1011,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Skinny Blue Tie",
+        "originX" : 302,
+        "originY" : 226,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 3005,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Zoot Suit",
+        "originX" : 291,
+        "originY" : 384,
+        "width" : 143,
+        "height" : 155,
+        "configurator_id" : 4013,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/d7d81858-41f7-4913-952a-2af7353a1797_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page32",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Doorman's Cap",
+        "originX" : -402,
+        "originY" : 72,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1012,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Doorman's Jacket",
+        "originX" : -419,
+        "originY" : 210,
+        "width" : 155,
+        "height" : 161,
+        "configurator_id" : 4014,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Black Zoot Shoes",
+        "originX" : -402,
+        "originY" : 397,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 6008,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Felt Hat",
+        "originX" : -195,
+        "originY" : 72,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1011,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Skinny Blue Tie",
+        "originX" : -195,
+        "originY" : 226,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 3005,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Zoot Suit",
+        "originX" : -206,
+        "originY" : 384,
+        "width" : 143,
+        "height" : 155,
+        "configurator_id" : 4013,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/d7d81858-41f7-4913-952a-2af7353a1797_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page33",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/9e569f70-dea9-400b-b588-f36d761ce385_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page34",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Fairytails",
+        "originX" : 84,
+        "originY" : 54,
+        "width" : 135,
+        "height" : 146,
+        "configurator_id" : 1025,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Twee's Costume",
+        "originX" : 81,
+        "originY" : 386,
+        "width" : 143,
+        "height" : 165,
+        "configurator_id" : 4038,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Twee's Wings",
+        "originX" : 92,
+        "originY" : 229,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 3008,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Prince Redhood Hat",
+        "originX" : 275,
+        "originY" : 55,
+        "width" : 127,
+        "height" : 145,
+        "configurator_id" : 1023,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Prince Redhood's Costume",
+        "originX" : 259,
+        "originY" : 202,
+        "width" : 158,
+        "height" : 164,
+        "configurator_id" : 4036,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Red Cape",
+        "originX" : 277,
+        "originY" : 410,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 301,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/9e569f70-dea9-400b-b588-f36d761ce385_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page35",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Big Bad Wool Suit",
+        "originX" : 98,
+        "originY" : 106,
+        "width" : 160,
+        "height" : 192,
+        "configurator_id" : 4039,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Big Bad Wool Hooves",
+        "originX" : 98,
+        "originY" : 329,
+        "width" : 134,
+        "height" : 154,
+        "configurator_id" : 6010,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Beautiful Braid",
+        "originX" : 263,
+        "originY" : 112,
+        "width" : 155,
+        "height" : 185,
+        "configurator_id" : 1024,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Grumpunzel's Dress",
+        "originX" : 267,
+        "originY" : 317,
+        "width" : 162,
+        "height" : 168,
+        "configurator_id" : 4037,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/fb1671cc-15d8-443a-90ec-ee70f667a9be_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page36",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Big Bad Wool Suit",
+        "originX" : -399,
+        "originY" : 106,
+        "width" : 160,
+        "height" : 192,
+        "configurator_id" : 4039,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Big Bad Wool Hooves",
+        "originX" : -399,
+        "originY" : 329,
+        "width" : 134,
+        "height" : 154,
+        "configurator_id" : 6010,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Beautiful Braid",
+        "originX" : -234,
+        "originY" : 112,
+        "width" : 155,
+        "height" : 185,
+        "configurator_id" : 1024,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Grumpunzel's Dress",
+        "originX" : -230,
+        "originY" : 317,
+        "width" : 162,
+        "height" : 168,
+        "configurator_id" : 4037,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/fb1671cc-15d8-443a-90ec-ee70f667a9be_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page37",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/0b6cadb1-dc71-4211-9e66-149f41626923_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page38",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Rad Scientist Wig",
+        "originX" : 85,
+        "originY" : 106,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1015,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Rad Scientist Costume",
+        "originX" : 68,
+        "originY" : 252,
+        "width" : 158,
+        "height" : 172,
+        "configurator_id" : 4018,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Sled Costume",
+        "originX" : 294,
+        "originY" : 222,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 4426,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/0b6cadb1-dc71-4211-9e66-149f41626923_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page39",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/b9382f7d-29c3-418c-b34f-7f5dec62ede6_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page40",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Zeus The Moose Head",
+        "originX" : 81,
+        "originY" : 31,
+        "width" : 152,
+        "height" : 162,
+        "configurator_id" : 479,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Track Jacket",
+        "originX" : 277,
+        "originY" : 35,
+        "width" : 143,
+        "height" : 162,
+        "configurator_id" : 771,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Red Track Jacket",
+        "originX" : 273,
+        "originY" : 375,
+        "width" : 151,
+        "height" : 165,
+        "configurator_id" : 4004,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Red Cheerleader Outfit",
+        "originX" : 275,
+        "originY" : 205,
+        "width" : 147,
+        "height" : 162,
+        "configurator_id" : 254,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "The Sidetied",
+        "originX" : 98,
+        "originY" : 221,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 658,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Red Sunglasses",
+        "originX" : 98,
+        "originY" : 409,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 110,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/b9382f7d-29c3-418c-b34f-7f5dec62ede6_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page41",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Referee Jersey",
+        "originX" : 68,
+        "originY" : 129,
+        "width" : 161,
+        "height" : 170,
+        "configurator_id" : 722,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Silver Whistle",
+        "originX" : 73,
+        "originY" : 349,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 3002,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Migrator Mascot Head",
+        "originX" : 258,
+        "originY" : 155,
+        "width" : 187,
+        "height" : 194,
+        "configurator_id" : 659,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Migrator Mascot Body",
+        "originX" : 258,
+        "originY" : 366,
+        "width" : 184,
+        "height" : 195,
+        "configurator_id" : 772,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/4c98eedb-0817-493c-b222-5276caa8bf9c_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page42",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Referee Jersey",
+        "originX" : -429,
+        "originY" : 129,
+        "width" : 161,
+        "height" : 170,
+        "configurator_id" : 722,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Silver Whistle",
+        "originX" : -424,
+        "originY" : 349,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 3002,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Migrator Mascot Head",
+        "originX" : -238,
+        "originY" : 155,
+        "width" : 187,
+        "height" : 194,
+        "configurator_id" : 659,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Migrator Mascot Body",
+        "originX" : -238,
+        "originY" : 366,
+        "width" : 184,
+        "height" : 195,
+        "configurator_id" : 772,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/4c98eedb-0817-493c-b222-5276caa8bf9c_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page43",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/3861c48a-6319-47ba-8ef6-090cd5680841_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page44",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/3861c48a-6319-47ba-8ef6-090cd5680841_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page45",
+    "layout" : {
+      "frames" : [ {
+        "name" : "The Cosmic",
+        "originX" : 105,
+        "originY" : 70,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1199,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Pink Cosmic Dress",
+        "originX" : 100,
+        "originY" : 218,
+        "width" : 132,
+        "height" : 162,
+        "configurator_id" : 4280,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Orange Space Suit",
+        "originX" : 94,
+        "originY" : 397,
+        "width" : 146,
+        "height" : 162,
+        "configurator_id" : 245,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Purple Space Suit",
+        "originX" : 299,
+        "originY" : 221,
+        "width" : 135,
+        "height" : 159,
+        "configurator_id" : 268,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Space Helmet",
+        "originX" : 299,
+        "originY" : 55,
+        "width" : 128,
+        "height" : 155,
+        "configurator_id" : 458,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Alien Mask",
+        "originX" : 298,
+        "originY" : 409,
+        "width" : 128,
+        "height" : 150,
+        "configurator_id" : 120,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/fb2733b1-f8ad-4733-bf94-8457eaf5b254_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page46",
+    "layout" : {
+      "frames" : [ {
+        "name" : "The Cosmic",
+        "originX" : -392,
+        "originY" : 70,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1199,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Pink Cosmic Dress",
+        "originX" : -397,
+        "originY" : 218,
+        "width" : 132,
+        "height" : 162,
+        "configurator_id" : 4280,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Orange Space Suit",
+        "originX" : -403,
+        "originY" : 397,
+        "width" : 146,
+        "height" : 162,
+        "configurator_id" : 245,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Purple Space Suit",
+        "originX" : -198,
+        "originY" : 221,
+        "width" : 135,
+        "height" : 159,
+        "configurator_id" : 268,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Space Helmet",
+        "originX" : -198,
+        "originY" : 55,
+        "width" : 128,
+        "height" : 155,
+        "configurator_id" : 458,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Alien Mask",
+        "originX" : -198,
+        "originY" : 409,
+        "width" : 128,
+        "height" : 150,
+        "configurator_id" : 120,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Alien Costume",
+        "originX" : 48,
+        "originY" : 399,
+        "width" : 148,
+        "height" : 160,
+        "configurator_id" : 266,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Robot Helmet",
+        "originX" : 58,
+        "originY" : 70,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 122,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Robot Suit",
+        "originX" : 49,
+        "originY" : 222,
+        "width" : 142,
+        "height" : 158,
+        "configurator_id" : 276,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Alien Thinking Cap",
+        "originX" : 276,
+        "originY" : 70,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1016,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Alien Mask",
+        "originX" : 273,
+        "originY" : 240,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 2004,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Blue Alien Costume",
+        "originX" : 258,
+        "originY" : 396,
+        "width" : 148,
+        "height" : 162,
+        "configurator_id" : 4021,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/fb2733b1-f8ad-4733-bf94-8457eaf5b254_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page47",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/a5bc73d2-5a38-4f58-8446-5cf74bd27957_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page48",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Funny Pig Hat",
+        "originX" : 78,
+        "originY" : 26,
+        "width" : 135,
+        "height" : 148,
+        "configurator_id" : 1116,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Funny Pig Snout",
+        "originX" : 87,
+        "originY" : 205,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 2016,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Funny Pig Costume",
+        "originX" : 65,
+        "originY" : 359,
+        "width" : 163,
+        "height" : 181,
+        "configurator_id" : 4192,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Monkey King Mask",
+        "originX" : 279,
+        "originY" : 35,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1114,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Monkey King Costume",
+        "originX" : 251,
+        "originY" : 182,
+        "width" : 163,
+        "height" : 164,
+        "configurator_id" : 4190,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Monkey King Feet",
+        "originX" : 279,
+        "originY" : 403,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 6033,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/a5bc73d2-5a38-4f58-8446-5cf74bd27957_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page49",
+    "layout" : {
+      "frames" : [ {
+        "name" : "The Phoenix",
+        "originX" : 71,
+        "originY" : 68,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1115,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Phoenix Dress",
+        "originX" : 50,
+        "originY" : 379,
+        "width" : 159,
+        "height" : 169,
+        "configurator_id" : 4191,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Phoenix Wings",
+        "originX" : 71,
+        "originY" : 236,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 3041,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Guardian Dog Hat",
+        "originX" : 271,
+        "originY" : 5,
+        "width" : 126,
+        "height" : 142,
+        "configurator_id" : 1117,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Guardian Dog Muzzle",
+        "originX" : 275,
+        "originY" : 148,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 2017,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Guardian Dog Costume",
+        "originX" : 252,
+        "originY" : 291,
+        "width" : 155,
+        "height" : 162,
+        "configurator_id" : 4194,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Guardian Dog Feet",
+        "originX" : 275,
+        "originY" : 464,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 6034,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/ccae844f-fd32-4c39-9b7e-31c20badd84e_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page50",
+    "layout" : {
+      "frames" : [ {
+        "name" : "The Phoenix",
+        "originX" : -426,
+        "originY" : 68,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1115,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Phoenix Dress",
+        "originX" : -447,
+        "originY" : 379,
+        "width" : 159,
+        "height" : 169,
+        "configurator_id" : 4191,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Phoenix Wings",
+        "originX" : -426,
+        "originY" : 236,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 3041,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Guardian Dog Hat",
+        "originX" : -226,
+        "originY" : 5,
+        "width" : 126,
+        "height" : 142,
+        "configurator_id" : 1117,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Guardian Dog Muzzle",
+        "originX" : -222,
+        "originY" : 148,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 2017,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Guardian Dog Costume",
+        "originX" : -245,
+        "originY" : 291,
+        "width" : 155,
+        "height" : 162,
+        "configurator_id" : 4194,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Guardian Dog Feet",
+        "originX" : -222,
+        "originY" : 464,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 6034,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/ccae844f-fd32-4c39-9b7e-31c20badd84e_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page51",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Fish Costume",
+        "originX" : 89,
+        "originY" : 145,
+        "width" : 182,
+        "height" : 197,
+        "configurator_id" : 763,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Yellow Flippers",
+        "originX" : 112,
+        "originY" : 369,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 367,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Court Jester Hat",
+        "originX" : 295,
+        "originY" : 147,
+        "width" : 152,
+        "height" : 156,
+        "configurator_id" : 477,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Court Jester Outfit",
+        "originX" : 299,
+        "originY" : 337,
+        "width" : 164,
+        "height" : 170,
+        "configurator_id" : 762,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/4c253dea-5f0a-43cb-9d09-bb9b7e822cb0_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page52",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Fish Costume",
+        "originX" : -408,
+        "originY" : 145,
+        "width" : 182,
+        "height" : 197,
+        "configurator_id" : 763,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Yellow Flippers",
+        "originX" : -385,
+        "originY" : 369,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 367,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Court Jester Hat",
+        "originX" : -202,
+        "originY" : 147,
+        "width" : 152,
+        "height" : 156,
+        "configurator_id" : 477,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Court Jester Outfit",
+        "originX" : -198,
+        "originY" : 337,
+        "width" : 164,
+        "height" : 170,
+        "configurator_id" : 762,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/4c253dea-5f0a-43cb-9d09-bb9b7e822cb0_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page53",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/420b9fc2-5405-422e-b7d2-900b575b3ce5_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page54",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Bard Hat",
+        "originX" : 73,
+        "originY" : 115,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 476,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Bard Outfit",
+        "originX" : 34,
+        "originY" : 277,
+        "width" : 198,
+        "height" : 198,
+        "configurator_id" : 761,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Countess Steeple Hat",
+        "originX" : 248,
+        "originY" : 90,
+        "width" : 154,
+        "height" : 178,
+        "configurator_id" : 475,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Countess Dress",
+        "originX" : 252,
+        "originY" : 332,
+        "width" : 176,
+        "height" : 185,
+        "configurator_id" : 760,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/420b9fc2-5405-422e-b7d2-900b575b3ce5_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page55",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/ae112679-61cd-4432-b1e3-129f8ed18aba_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page56",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/ae112679-61cd-4432-b1e3-129f8ed18aba_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page57",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Bee Costume",
+        "originX" : 41,
+        "originY" : 399,
+        "width" : 142,
+        "height" : 152,
+        "configurator_id" : 227,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Bee Wings",
+        "originX" : 184,
+        "originY" : 361,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 309,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Bee Antennae",
+        "originX" : 52,
+        "originY" : 246,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 472,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Spider Costume",
+        "originX" : 311,
+        "originY" : 130,
+        "width" : 187,
+        "height" : 202,
+        "configurator_id" : 4138,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Snail Costume",
+        "originX" : 318,
+        "originY" : 377,
+        "width" : 174,
+        "height" : 208,
+        "configurator_id" : 4135,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/86ca2d42-1601-4e62-b6e7-09cb90565641_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page58",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Bee Costume",
+        "originX" : -456,
+        "originY" : 399,
+        "width" : 142,
+        "height" : 152,
+        "configurator_id" : 227,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Bee Wings",
+        "originX" : -313,
+        "originY" : 361,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 309,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Bee Antennae",
+        "originX" : -445,
+        "originY" : 246,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 472,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Spider Costume",
+        "originX" : -186,
+        "originY" : 130,
+        "width" : 187,
+        "height" : 202,
+        "configurator_id" : 4138,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Snail Costume",
+        "originX" : -179,
+        "originY" : 377,
+        "width" : 174,
+        "height" : 208,
+        "configurator_id" : 4135,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Buckle Hat",
+        "originX" : 88,
+        "originY" : 115,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1102,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "White Fuzzy Beard",
+        "originX" : 89,
+        "originY" : 269,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 3037,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Gnome Costume",
+        "originX" : 78,
+        "originY" : 413,
+        "width" : 148,
+        "height" : 169,
+        "configurator_id" : 4136,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "The Flutter",
+        "originX" : 255,
+        "originY" : 18,
+        "width" : 172,
+        "height" : 205,
+        "configurator_id" : 1101,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Moth Wings",
+        "originX" : 265,
+        "originY" : 225,
+        "width" : 168,
+        "height" : 181,
+        "configurator_id" : 3036,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Pretty as a Petal Dress",
+        "originX" : 281,
+        "originY" : 425,
+        "width" : 144,
+        "height" : 160,
+        "configurator_id" : 4137,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/86ca2d42-1601-4e62-b6e7-09cb90565641_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page59",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/690560cb-23b5-4ded-82c0-747c2f017108_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page60",
+    "layout" : {
+      "frames" : [ {
+        "name" : "The Burly Beard",
+        "originX" : 55,
+        "originY" : 62,
+        "width" : 145,
+        "height" : 169,
+        "configurator_id" : 2043,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Ghost of Yesterday",
+        "originX" : 261,
+        "originY" : 71,
+        "width" : 193,
+        "height" : 202,
+        "configurator_id" : 4466,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Ghost of Today",
+        "originX" : 49,
+        "originY" : 277,
+        "width" : 176,
+        "height" : 195,
+        "configurator_id" : 4467,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Ghost of Tomorrow",
+        "originX" : 259,
+        "originY" : 305,
+        "width" : 188,
+        "height" : 219,
+        "configurator_id" : 4468,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/690560cb-23b5-4ded-82c0-747c2f017108_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page61",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/f00418c3-be02-4c99-b79f-456dc4f8746d_left_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_page62",
+    "layout" : {
+      "frames" : [ {
+        "name" : "Humbug Hat",
+        "originX" : 102,
+        "originY" : 82,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 1106,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Humbug Coat",
+        "originX" : 79,
+        "originY" : 380,
+        "width" : 162,
+        "height" : 163,
+        "configurator_id" : 4146,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Monocle",
+        "originX" : 105,
+        "originY" : 240,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 119,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Tri-color Scarf",
+        "originX" : 285,
+        "originY" : 154,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 3038,
+        "configurator_category" : "paper_item"
+      }, {
+        "name" : "Iron Lantern",
+        "originX" : 287,
+        "originY" : 315,
+        "width" : 118,
+        "height" : 140,
+        "configurator_id" : 5131,
+        "configurator_category" : "paper_item"
+      } ],
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/f00418c3-be02-4c99-b79f-456dc4f8746d_right_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  }, {
+    "name" : "stage_bc",
+    "layout" : {
+      "images" : [ {
+        "name" : "page_background",
+        "originX" : 15,
+        "originY" : 80,
+        "width" : 497,
+        "height" : 618,
+        "image" : "catalog/stage/3176e334-d771-45b3-a1d6-163996fc0bc0_bg_617.png"
+      } ]
+    },
+    "originX" : 15,
+    "originY" : 81,
+    "sourceWidth" : 497,
+    "sourceHeight" : 617,
+    "width" : 497,
+    "height" : 617
+  } ]
+}

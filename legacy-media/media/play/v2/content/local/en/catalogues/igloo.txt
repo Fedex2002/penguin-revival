@@ -1,0 +1,939 @@
+movie 'igloo.swf' compressed // flash 9, total frames: 10, frame rate: 24 fps, 760x480 px
+
+  
+  protect
+
+  defineMovieClip 4 // total frames: 3
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 4
+
+  defineMovieClip 5 // total frames: 1
+  end // of defineMovieClip 5
+  
+  exportAssets
+    5 as 'ficon130'
+  end // of exportAssets
+
+  defineMovieClip 7 // total frames: 1
+  end // of defineMovieClip 7
+
+  defineMovieClip 8 // total frames: 1
+  end // of defineMovieClip 8
+  
+  exportAssets
+    8 as 'ficon131'
+  end // of exportAssets
+
+  defineMovieClip 12 // total frames: 2
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 12
+
+  defineMovieClip 13 // total frames: 1
+  end // of defineMovieClip 13
+  
+  exportAssets
+    13 as 'f111'
+  end // of exportAssets
+
+  defineMovieClip 16 // total frames: 1
+  end // of defineMovieClip 16
+  
+  exportAssets
+    16 as 'item234'
+  end // of exportAssets
+
+  frame 0
+    constants 'coins', 'coinTotal', 'coins_txt', 'text', 'YOUR COINS: ', 'SHELL', 'getMyPlayerTotalCoins', 'handleUpdateCoins', '_global', 'getCurrentShell', 'INTERFACE', 'getCurrentInterface', 'UPDATE_COINS', 'addListener'  
+    function2 handleUpdateCoins (r:2='ob') ()
+      push r:ob, 'coins'
+      getMember
+      setRegister r:1
+      pop
+      push 'coinTotal'
+      getVariable
+      push 'coins_txt'
+      getMember
+      push 'text', 'YOUR COINS: ', r:1
+      add
+      setMember
+    end // of function handleUpdateCoins
+
+    function2 showCoins () ()
+      push 0.0, 'SHELL'
+      getVariable
+      push 'getMyPlayerTotalCoins'
+      callMethod
+      setRegister r:1
+      pop
+      push 'coins', r:1, 1
+      initObject
+      push 1, 'handleUpdateCoins'
+      callFunction
+      pop
+    end // of function showCoins
+
+    stop
+    push 'SHELL', 0.0, '_global'
+    getVariable
+    push 'getCurrentShell'
+    callMethod
+    varEquals
+    push 'INTERFACE', 0.0, '_global'
+    getVariable
+    push 'getCurrentInterface'
+    callMethod
+    varEquals
+    push 'handleUpdateCoins'
+    getVariable
+    push 'SHELL'
+    getVariable
+    push 'UPDATE_COINS'
+    getMember
+    push 2, 'SHELL'
+    getVariable
+    push 'addListener'
+    callMethod
+    pop
+  end // of frame 0
+
+  defineMovieClip 18 // total frames: 1
+  end // of defineMovieClip 18
+
+  defineMovieClip 21 // total frames: 1
+  end // of defineMovieClip 21
+
+  defineMovieClip 24 // total frames: 1
+  end // of defineMovieClip 24
+
+  defineMovieClip 26 // total frames: 1
+  end // of defineMovieClip 26
+
+  defineMovieClip 28 // total frames: 1
+  end // of defineMovieClip 28
+
+  defineMovieClip 30 // total frames: 1
+  end // of defineMovieClip 30
+
+  defineMovieClip 32 // total frames: 1
+  end // of defineMovieClip 32
+
+  defineMovieClip 34 // total frames: 1
+  end // of defineMovieClip 34
+
+  defineMovieClip 36 // total frames: 1
+  end // of defineMovieClip 36
+
+  defineMovieClip 38 // total frames: 1
+  end // of defineMovieClip 38
+
+  defineMovieClip 41 // total frames: 1
+  end // of defineMovieClip 41
+
+  defineMovieClip 42 // total frames: 1
+  end // of defineMovieClip 42
+
+  defineMovieClip 43 // total frames: 1
+  end // of defineMovieClip 43
+
+  defineMovieClip 44 // total frames: 1
+  end // of defineMovieClip 44
+
+  defineMovieClip 48 // total frames: 1
+  end // of defineMovieClip 48
+
+  defineMovieClip 52 // total frames: 1
+  end // of defineMovieClip 52
+
+  defineMovieClip 54 // total frames: 1
+  end // of defineMovieClip 54
+  
+  // unknown tag 88 length 68
+
+  defineMovieClip 59 // total frames: 1
+  end // of defineMovieClip 59
+
+  defineButton 63
+
+    on overDownToOverUp
+      nextFrame
+    end
+  end // of defineButton 63
+
+  frame 1
+    push 0.0, 'showCoins'
+    callFunction
+    pop
+  end // of frame 1
+
+  frame 1
+  end // of frame 1
+
+  defineMovieClip 66 // total frames: 1
+  end // of defineMovieClip 66
+  
+  // unknown tag 88 length 62
+
+  defineMovieClip 72 // total frames: 1
+  end // of defineMovieClip 72
+  
+  // unknown tag 88 length 97
+
+  defineButton 83
+
+    on overDownToOverUp
+      push 21, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooFloor'
+      callMethod
+      pop
+    end
+  end // of defineButton 83
+
+  defineButton 85
+
+    on overDownToOverUp
+      push 14, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooFloor'
+      callMethod
+      pop
+    end
+  end // of defineButton 85
+
+  defineButton 87
+
+    on overDownToOverUp
+      push 1, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooFloor'
+      callMethod
+      pop
+    end
+  end // of defineButton 87
+
+  defineButton 89
+
+    on overDownToOverUp
+      push 9, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooFloor'
+      callMethod
+      pop
+    end
+  end // of defineButton 89
+
+  defineMovieClip 91 // total frames: 1
+  end // of defineMovieClip 91
+
+  defineMovieClip 92 // total frames: 1
+  end // of defineMovieClip 92
+
+  defineButton 94
+
+    on overDownToOverUp
+      push 607, 1, 'INTERFACE'
+      getVariable
+      push 'buyFurniture'
+      callMethod
+      pop
+    end
+  end // of defineButton 94
+
+  defineButton 98
+
+    on overDownToOverUp
+      push 22, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooFloor'
+      callMethod
+      pop
+    end
+  end // of defineButton 98
+
+  defineMovieClip 110 // total frames: 1
+  end // of defineMovieClip 110
+
+  defineMovieClip 112 // total frames: 1
+  end // of defineMovieClip 112
+
+  defineButton 118
+
+    on overDownToOverUp
+      prevFrame
+    end
+  end // of defineButton 118
+
+  defineButton 119
+
+    on overDownToOverUp
+      nextFrame
+    end
+  end // of defineButton 119
+  
+  // unknown tag 88 length 70
+
+  defineMovieClip 122 // total frames: 1
+
+    frame 0
+      push 0.0, '_parent'
+      getVariable
+      push 'showCoins'
+      callMethod
+      pop
+    end // of frame 0
+  end // of defineMovieClip 122
+
+  defineButton 129
+
+    on overDownToOverUp
+      push 0.0, '_parent'
+      getVariable
+      push 'close'
+      callMethod
+      pop
+    end
+  end // of defineButton 129
+
+  defineButton 132
+
+    on overDownToOverUp
+      push 0.0, 1, '_parent'
+      getVariable
+      push 'INTERFACE'
+      getMember
+      push 'buyIglooFloor'
+      callMethod
+      pop
+    end
+  end // of defineButton 132
+  
+  // unknown tag 88 length 103
+
+  defineMovieClip 143 // total frames: 1
+  end // of defineMovieClip 143
+
+  defineButton 146
+
+    on overDownToOverUp
+      push 17, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooFloor'
+      callMethod
+      pop
+    end
+  end // of defineButton 146
+
+  defineButton 150
+
+    on overDownToOverUp
+      push 7, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooFloor'
+      callMethod
+      pop
+    end
+  end // of defineButton 150
+
+  defineMovieClip 154 // total frames: 1
+  end // of defineMovieClip 154
+
+  defineMovieClip 156 // total frames: 1
+  end // of defineMovieClip 156
+
+  defineMovieClip 157 // total frames: 1
+  end // of defineMovieClip 157
+
+  defineMovieClip 158 // total frames: 1
+  end // of defineMovieClip 158
+
+  defineButton 160
+
+    on overDownToOverUp
+      push 20, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooFloor'
+      callMethod
+      pop
+    end
+  end // of defineButton 160
+
+  defineButton 163
+
+    on overDownToOverUp
+      push 4, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooFloor'
+      callMethod
+      pop
+    end
+  end // of defineButton 163
+
+  defineButton 165
+
+    on overDownToOverUp
+      gotoFrame 0
+    end
+  end // of defineButton 165
+
+  defineButton 171
+
+    on overDownToOverUp
+      gotoFrame 0
+    end
+  end // of defineButton 171
+
+  defineMovieClip 175 // total frames: 4
+  end // of defineMovieClip 175
+
+  defineButton 180
+
+    on overDownToOverUp
+      push 5, 1, '_parent'
+      getVariable
+      push 'INTERFACE'
+      getMember
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 180
+
+  defineMovieClip 181 // total frames: 2
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 181
+
+  defineButton 183
+
+    on overDownToOverUp
+      push 2, 1, 'secret'
+      getVariable
+      push 'gotoAndStop'
+      callMethod
+      pop
+    end
+  end // of defineButton 183
+  
+  // unknown tag 88 length 69
+
+  defineButton 189
+
+    on overDownToOverUp
+      push 35, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 189
+
+  defineMovieClip 192 // total frames: 1
+  end // of defineMovieClip 192
+
+  defineMovieClip 194 // total frames: 1
+  end // of defineMovieClip 194
+
+  defineMovieClip 196 // total frames: 1
+  end // of defineMovieClip 196
+
+  defineMovieClip 212 // total frames: 1
+  end // of defineMovieClip 212
+
+  defineMovieClip 216 // total frames: 1
+  end // of defineMovieClip 216
+
+  defineMovieClip 217 // total frames: 1
+  end // of defineMovieClip 217
+
+  defineMovieClip 219 // total frames: 1
+  end // of defineMovieClip 219
+
+  defineButton 222
+
+    on overDownToOverUp
+      push 12, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 222
+
+  defineButton 223
+
+    on overDownToOverUp
+      gotoFrame 0
+    end
+  end // of defineButton 223
+
+  defineButton 225
+
+    on overDownToOverUp
+      gotoFrame 0
+    end
+  end // of defineButton 225
+
+  defineButton 227
+
+    on overDownToOverUp
+      push 20, 1, '_parent'
+      getVariable
+      push 'INTERFACE'
+      getMember
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 227
+
+  defineMovieClip 229 // total frames: 1
+  end // of defineMovieClip 229
+
+  defineMovieClip 230 // total frames: 2
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 230
+
+  defineButton 231
+
+    on overDownToOverUp
+      push 2, 1, 'secret'
+      getVariable
+      push 'gotoAndStop'
+      callMethod
+      pop
+    end
+  end // of defineButton 231
+
+  defineMovieClip 236 // total frames: 1
+  end // of defineMovieClip 236
+
+  defineMovieClip 237 // total frames: 1
+  end // of defineMovieClip 237
+
+  defineMovieClip 239 // total frames: 1
+  end // of defineMovieClip 239
+
+  defineMovieClip 241 // total frames: 1
+  end // of defineMovieClip 241
+
+  defineButton 244
+
+    on overDownToOverUp
+      push 33, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 244
+
+  defineMovieClip 250 // total frames: 1
+  end // of defineMovieClip 250
+
+  defineMovieClip 251 // total frames: 1
+  end // of defineMovieClip 251
+
+  defineMovieClip 254 // total frames: 1
+  end // of defineMovieClip 254
+
+  defineMovieClip 255 // total frames: 1
+  end // of defineMovieClip 255
+
+  defineButton 258
+
+    on overDownToOverUp
+      push 18, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 258
+
+  defineButton 259
+
+    on overDownToOverUp
+      gotoFrame 0
+    end
+  end // of defineButton 259
+
+  defineButton 260
+
+    on overDownToOverUp
+      gotoFrame 0
+    end
+  end // of defineButton 260
+
+  defineButton 262
+
+    on overDownToOverUp
+      push 10, 1, '_parent'
+      getVariable
+      push 'INTERFACE'
+      getMember
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 262
+
+  defineMovieClip 265 // total frames: 1
+  end // of defineMovieClip 265
+
+  defineMovieClip 268 // total frames: 1
+  end // of defineMovieClip 268
+
+  defineMovieClip 270 // total frames: 1
+  end // of defineMovieClip 270
+
+  defineMovieClip 271 // total frames: 1
+  end // of defineMovieClip 271
+
+  defineMovieClip 274 // total frames: 1
+  end // of defineMovieClip 274
+
+  defineMovieClip 276 // total frames: 1
+  end // of defineMovieClip 276
+
+  defineMovieClip 278 // total frames: 1
+  end // of defineMovieClip 278
+
+  defineMovieClip 280 // total frames: 1
+  end // of defineMovieClip 280
+
+  defineMovieClip 282 // total frames: 1
+  end // of defineMovieClip 282
+
+  defineMovieClip 284 // total frames: 1
+  end // of defineMovieClip 284
+
+  defineMovieClip 286 // total frames: 1
+  end // of defineMovieClip 286
+
+  defineMovieClip 288 // total frames: 1
+  end // of defineMovieClip 288
+
+  defineMovieClip 291 // total frames: 1
+  end // of defineMovieClip 291
+
+  defineMovieClip 295 // total frames: 1
+  end // of defineMovieClip 295
+
+  defineMovieClip 297 // total frames: 1
+  end // of defineMovieClip 297
+
+  defineMovieClip 298 // total frames: 1
+  end // of defineMovieClip 298
+
+  defineMovieClip 301 // total frames: 1
+  end // of defineMovieClip 301
+
+  defineMovieClip 303 // total frames: 1
+  end // of defineMovieClip 303
+
+  defineMovieClip 305 // total frames: 1
+  end // of defineMovieClip 305
+
+  defineMovieClip 308 // total frames: 1
+  end // of defineMovieClip 308
+
+  defineMovieClip 309 // total frames: 2
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 309
+
+  defineButton 310
+
+    on overDownToOverUp
+      push 2, 1, 'secret'
+      getVariable
+      push 'gotoAndStop'
+      callMethod
+      pop
+    end
+  end // of defineButton 310
+
+  defineMovieClip 314 // total frames: 1
+  end // of defineMovieClip 314
+
+  defineMovieClip 317 // total frames: 1
+  end // of defineMovieClip 317
+
+  defineMovieClip 319 // total frames: 1
+  end // of defineMovieClip 319
+
+  defineMovieClip 323 // total frames: 1
+  end // of defineMovieClip 323
+
+  defineMovieClip 325 // total frames: 1
+  end // of defineMovieClip 325
+
+  defineMovieClip 326 // total frames: 1
+  end // of defineMovieClip 326
+
+  defineButton 329
+
+    on overDownToOverUp
+      push 30, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 329
+
+  defineButton 336
+
+    on overDownToOverUp
+      push 16, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 336
+
+  defineButton 337
+
+    on overDownToOverUp
+      push 2, 1, 'secret'
+      getVariable
+      push 'gotoAndStop'
+      callMethod
+      pop
+    end
+  end // of defineButton 337
+
+  defineButton 338
+
+    on overDownToOverUp
+      gotoFrame 0
+    end
+  end // of defineButton 338
+
+  defineButton 339
+
+    on overDownToOverUp
+      gotoFrame 0
+    end
+  end // of defineButton 339
+
+  defineButton 344
+
+    on overDownToOverUp
+      push 22, 1, '_parent'
+      getVariable
+      push 'INTERFACE'
+      getMember
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 344
+
+  defineMovieClip 345 // total frames: 2
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 345
+
+  defineMovieClip 349 // total frames: 1
+  end // of defineMovieClip 349
+
+  defineButton 354
+
+    on overDownToOverUp
+      push 1, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 354
+
+  defineButton 369
+
+    on overDownToOverUp
+      push 13, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 369
+
+  frame 7
+    constants 'candy1', 'candy2', 'candy3', 'candy4', 'secret', 'nextFrame'  
+    function candyTruth ()
+      push 'candy1'
+      getVariable
+      push TRUE
+      equals
+      dup
+      not
+      branchIfTrue label1
+      pop
+      push 'candy2'
+      getVariable
+      push TRUE
+      equals
+     label1:
+      dup
+      not
+      branchIfTrue label2
+      pop
+      push 'candy3'
+      getVariable
+      push TRUE
+      equals
+     label2:
+      dup
+      not
+      branchIfTrue label3
+      pop
+      push 'candy4'
+      getVariable
+      push TRUE
+      equals
+     label3:
+      not
+      branchIfTrue label4
+      push 0.0, 'secret'
+      getVariable
+      push 'nextFrame'
+      callMethod
+      pop
+     label4:
+    end // of function candyTruth
+
+    push 'candy1', FALSE
+    setVariable
+    push 'candy2', FALSE
+    setVariable
+    push 'candy3', FALSE
+    setVariable
+    push 'candy4', FALSE
+    setVariable
+  end // of frame 7
+
+  defineMovieClip 375 // total frames: 1
+  end // of defineMovieClip 375
+
+  defineButton 377
+
+    on overDownToOverUp
+      push 2, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 377
+
+  defineMovieClip 381 // total frames: 1
+  end // of defineMovieClip 381
+
+  defineButton 385
+
+    on overDownToOverUp
+      push 14, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 385
+
+  frame 8
+    push 0.0, 'showCoins'
+    callFunction
+    pop
+  end // of frame 8
+
+  defineButton 393
+
+    on overDownToOverUp
+      push 9, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 393
+
+  defineButton 397
+
+    on overDownToOverUp
+      push 6, 1, 'INTERFACE'
+      getVariable
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 397
+
+  defineButton 398
+
+    on overDownToOverUp
+      push 2, 1, 'secret'
+      getVariable
+      push 'gotoAndStop'
+      callMethod
+      pop
+    end
+  end // of defineButton 398
+
+  defineButton 399
+
+    on overDownToOverUp
+      gotoFrame 0
+    end
+  end // of defineButton 399
+
+  defineButton 400
+
+    on overDownToOverUp
+      gotoFrame 0
+    end
+  end // of defineButton 400
+
+  defineButton 403
+
+    on overDownToOverUp
+      push 8, 1, '_parent'
+      getVariable
+      push 'INTERFACE'
+      getMember
+      push 'buyIglooUpgrade'
+      callMethod
+      pop
+    end
+  end // of defineButton 403
+
+  defineMovieClip 404 // total frames: 2
+
+    frame 0
+      stop
+    end // of frame 0
+  end // of defineMovieClip 404
+
+  frame 9
+    push 0.0, 'showCoins'
+    callFunction
+    pop
+  end // of frame 9
+end
